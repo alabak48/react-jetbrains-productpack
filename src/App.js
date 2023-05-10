@@ -5,6 +5,8 @@ import AllProductPackImage from "./components/AllProductPackImage.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './index.css';
 import MainImage from './assets/all-product-pack.png';
+import Heading from "./components/Headings";
+import Button from "./components/Button";
 
 
 class App extends Component{
@@ -17,7 +19,7 @@ class App extends Component{
                         <Container>
                             <Row>
                                 <Col md={12}>
-                        <NavigationBar />
+                                    <NavigationBar />
                                 </Col>
                             </Row>
                         </Container>
@@ -29,12 +31,15 @@ class App extends Component{
                 <div className="heading-container">
                     <div className="left-heading-container">
                         <Container>
-                            <Row  style={{ marginTop: '50px' }}>
+                            <Row style={{ marginTop: '100px' }}>
                                 <Col md={6}>
                                     <AllProductPackImage src={MainImage} alt="All Products Pack Image" />
                                 </Col>
                                 <Col md={6}>
-                                    <h1>All Product Pack</h1>
+                                    <Heading level={1}>All Products Pack</Heading>
+                                    <Heading level={2}>The complete full-stack<br />developer toolkit</Heading>
+                                    <Button btnText="I Want It All!"  />
+                                    <p style={{ marginTop: '20px', color: '#696969'}}>An upgrade and switch option is available</p>
                                 </Col>
                             </Row>
                         </Container>
