@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Heading(props) {
-    const { level, children } = props;
+    const {level, children} = props;
 
     switch (level) {
         case 1:
@@ -20,4 +20,5 @@ function Heading(props) {
             return null;
     }
 }
+
 export default Heading;
