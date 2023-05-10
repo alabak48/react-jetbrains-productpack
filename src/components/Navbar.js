@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 
 function NavigationBar() {
     return (
-        <Navbar collapseOnSelect expand="lg" className='navigation-bar' fixed="top">
+        <Navbar collapseOnSelect expand="lg" className='navigation-bar'>
             <Container className='NavigationContainer'>
                 <Navbar.Brand href="#home" id='toolbox'>Toolbox</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
