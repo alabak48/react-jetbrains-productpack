@@ -57,6 +57,7 @@
     line-height: 20pt;
     color: var(--dim-color);
     font-weight: 400;
+    margin-bottom: 48px;
 }
 
 .right-deals-container img {
@@ -83,4 +84,28 @@ h2 {
     font-size: 28px;
     color: var(--text-color);
     font-weight: 500;
+}
+
+
+/*Toolbox App*/
+.toolbox-app-container h3{
+    color: white;
+    font-size: 18pt;
+    font-weight: normal;
+}
+.toolbox-app-container{
+    background-color: var(--text-color);
+}
+.right-toolbox-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.right-toolbox-container p{
+    color: var(--gray-color);
+}
+.right-toolbox-container a{
+    color: var(--orange-color);
+    text-decoration: none;
 }
