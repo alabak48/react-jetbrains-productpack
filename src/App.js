@@ -3,14 +3,14 @@ import NavigationBar from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './index.css';
 import MainSection from "./components/MainSection";
-import TenIdeS from "./components/TenIdeS";
+import Deals from "./components/Deals";
 
 class App extends Component {
     render() {
         return (<>
             <NavigationBar/>
             <MainSection />
-            <TenIdeS />
+            <Deals />
         </>)
     }
 }

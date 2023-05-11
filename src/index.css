@@ -10,7 +10,7 @@
     --spacer-sixtyfour: 64px;
 }
 
-/* Navigation Bar */
+/*Navigation Bar*/
 .navigation-bar {
     border-bottom: solid 1px rgba(39, 40, 44, 0.2);
     max-width: 100%;
@@ -34,7 +34,7 @@
     color: var(--text-color);
 }
 
-/* Main Container */
+/*Main Container*/
 
 .orange-btn {
     padding: 8px 40px 8px 40px;
@@ -45,6 +45,27 @@
     margin-top: 30px;
     color: white;
 }
+
+
+/*Deals Container*/
+
+.right-deals-container{
+   line-height: 20pt;
+}
+
+.right-deals-container p{
+    line-height: 20pt;
+    color: var(--dim-color);
+    font-weight: 400;
+}
+
+.right-deals-container img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/*Headings*/
 
 h1 {
     font-size: 60px;
