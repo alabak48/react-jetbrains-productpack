@@ -18,7 +18,7 @@ function MainSection(props) {
                             <div className="right-heading-container">
                                 <Heading level={1}>All Products Pack</Heading>
                                 <Heading level={2}>The complete full-stack<br/>developer toolkit</Heading>
-                                <Button btnText="I Want It All!"/>
+                                <Button btnText="I Want It All"/>
                                 <p style={{marginTop: '20px', color: '#696969'}}>An upgrade and switch option is
                                     available</p>
                             </div>

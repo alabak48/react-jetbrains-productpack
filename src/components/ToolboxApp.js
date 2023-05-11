@@ -19,7 +19,7 @@ function ToolboxApp() {
                                 <p style={{marginTop: '20px'}}>Simple installations,
                                     updates, and more
                                 </p>
-                                <a href="#">Learn more</a>
+                                <a href="https://www.jetbrains.com/toolbox-app/">Learn more</a>
                             </div>
                         </Col>
                     </Row>

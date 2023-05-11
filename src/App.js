@@ -5,6 +5,7 @@ import './index.css';
 import MainSection from "./components/MainSection";
 import Deals from "./components/Deals";
 import ToolboxApp from "./components/ToolboxApp";
+import Sponsors from "./components/Sponsors";
 
 class App extends Component {
     render() {
@@ -13,6 +14,7 @@ class App extends Component {
             <MainSection />
             <Deals />
             <ToolboxApp />
+            <Sponsors />
         </>)
     }
 }

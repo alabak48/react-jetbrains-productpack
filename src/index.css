@@ -35,7 +35,6 @@
 }
 
 /*Main Container*/
-
 .orange-btn {
     padding: 8px 40px 8px 40px;
     border-radius: 25px;
@@ -48,12 +47,11 @@
 
 
 /*Deals Container*/
-
-.right-deals-container{
-   line-height: 20pt;
+.right-deals-container {
+    line-height: 20pt;
 }
 
-.right-deals-container p{
+.right-deals-container p {
     line-height: 20pt;
     color: var(--dim-color);
     font-weight: 400;
@@ -67,7 +65,6 @@
 }
 
 /*Headings*/
-
 h1 {
     font-size: 60px;
     font-weight: 400;
@@ -86,26 +83,62 @@ h2 {
     font-weight: 500;
 }
 
-
 /*Toolbox App*/
-.toolbox-app-container h3{
+.toolbox-app-container h3 {
     color: white;
     font-size: 18pt;
     font-weight: normal;
 }
-.toolbox-app-container{
+
+.toolbox-app-container {
     background-color: var(--text-color);
 }
+
+.left-toolbox-container {
+    margin-left: 50px;
+}
+
 .right-toolbox-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100%;
 }
-.right-toolbox-container p{
+
+.right-toolbox-container p {
     color: var(--gray-color);
 }
-.right-toolbox-container a{
+
+.right-toolbox-container a {
     color: var(--orange-color);
     text-decoration: none;
+}
+
+/*Sponsors*/
+.sponsors-container{
+    margin-bottom: 48px;
+}
+.right-sponsors-container {
+    display: flex;
+    margin-left: 96px;
+}
+
+.google-salesforce, .hp-expedia, .samsung-twitter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sponsor-image {
+    margin-bottom: 30px;
+}
+
+.right-sponsors-container > div:not(:last-child) {
+    margin-right: 130px;
+
+}
+
+.twitter {
+    width: 70px;
+    height: 70px;
 }
