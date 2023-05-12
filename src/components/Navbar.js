@@ -14,7 +14,7 @@ function NavigationBar() {
                             <Col md={12}>
                                 <Navbar collapseOnSelect expand="lg" className='navigation'>
                                     <Container className='NavigationContainer'>
-                                        <Navbar.Brand href="#home" id='toolbox'>Toolbox</Navbar.Brand>
+                                        <Navbar.Brand href="#home" id='toolbox'>All Products Pack</Navbar.Brand>
                                         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                                         <Navbar.Collapse id="responsive-navbar-nav">
                                             <Nav className="me-auto">

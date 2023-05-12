@@ -7,6 +7,7 @@ import Deals from "./components/Deals";
 import ToolboxApp from "./components/ToolboxApp";
 import Sponsors from "./components/Sponsors";
 import Faq from "./components/Faq";
+import Download from "./components/Download";
 
 class App extends Component {
     render() {
@@ -17,6 +18,7 @@ class App extends Component {
             <ToolboxApp />
             <Sponsors />
             <Faq />
+            <Download />
         </>)
     }
 }

@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b423493-7be6-4fd1-b1b2-58fbb25fa139" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Faq.js" afterDir="false" />
+    <list default="true" id="7b423493-7be6-4fd1-b1b2-58fbb25fa139" name="Changes" comment="FAQ section">
+      <change afterPath="$PROJECT_DIR$/src/components/Download.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Faq.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Faq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,11 +82,22 @@
       <workItem from="1683742678832" duration="5246000" />
       <workItem from="1683793771391" duration="5903000" />
       <workItem from="1683818171656" duration="6249000" />
-      <workItem from="1683881502187" duration="1345000" />
+      <workItem from="1683881502187" duration="7884000" />
     </task>
+    <task id="LOCAL−00001" summary="FAQ section">
+      <created>1683883104052</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1683883104052</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FAQ section" />
+    <option name="LAST_COMMIT_MESSAGE" value="FAQ section" />
   </component>
 </project>

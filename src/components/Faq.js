@@ -7,7 +7,7 @@ function Faq() {
             <div className="faq-container">
                 <Container>
                     <Row>
-                        <Heading level={3}>FAQ</Heading>
+                        <Heading level={2}>FAQ</Heading>
                         <Col md={6}>
                             <div className="left-faq-container">
                                 <p>Can I upgrade my existing IntelliJ IDEA, PyCharm, Webstorm or ResSharper Ultimate

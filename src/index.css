@@ -10,6 +10,10 @@
     --spacer-sixtyfour: 64px;
 }
 
+body {
+    font-family: 'JetBrains Sans', 'Inter', sans-serif;
+}
+
 a {
     color: var(--orange-color);
     text-decoration: none;
@@ -116,9 +120,10 @@ h2 {
 
 
 /*Sponsors*/
-.sponsors-container{
+.sponsors-container {
     margin-bottom: 48px;
 }
+
 .right-sponsors-container {
     display: flex;
     margin-left: 96px;
@@ -145,13 +150,60 @@ h2 {
 }
 
 /*Faq*/
-.left-faq-container, .right-faq-container{
+.left-faq-container, .right-faq-container {
     width: 80%;
+}
+
+.faq-container {
+    font-family: 'JetBrains Sans', 'Inter', sans-serif;
+    line-height: 28px;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.faq-container h2{
+    font-size: 35px;
 }
 
 .left-faq-container p:first-child,
 .right-faq-container p:first-child {
-    font-weight: 600;
+    font-weight: 530;
     font-size: 19px;
     color: var(--text-color);
 }
+
+.left-faq-container p:nth-child(2),
+.right-faq-container p:nth-child(2) {
+    color: rgba(25, 25, 28, .7);
+}
+
+/*Download*/
+
+.download-container {
+    padding-bottom: 49px;
+}
+
+
+.left-download-container img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+.right-download-container a {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.right-download-container a:hover {
+    color: var(--orange-color);
+    text-decoration: underline var(--orange-color);
+}
+
+.right-download-container h2 {
+   font-size: 35px;
+    line-height: 42px;
+    font-weight: 600;
+}
+
