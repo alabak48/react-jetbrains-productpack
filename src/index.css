@@ -10,6 +10,11 @@
     --spacer-sixtyfour: 64px;
 }
 
+a {
+    color: var(--orange-color);
+    text-decoration: none;
+}
+
 /*Navigation Bar*/
 .navigation-bar {
     border-bottom: solid 1px rgba(39, 40, 44, 0.2);
@@ -53,7 +58,7 @@
 
 .right-deals-container p {
     line-height: 20pt;
-    color: var(--dim-color);
+    color: var(--text-color);
     font-weight: 400;
     margin-bottom: 48px;
 }
@@ -109,10 +114,6 @@ h2 {
     color: var(--gray-color);
 }
 
-.right-toolbox-container a {
-    color: var(--orange-color);
-    text-decoration: none;
-}
 
 /*Sponsors*/
 .sponsors-container{
@@ -141,4 +142,16 @@ h2 {
 .twitter {
     width: 70px;
     height: 70px;
+}
+
+/*Faq*/
+.left-faq-container, .right-faq-container{
+    width: 80%;
+}
+
+.left-faq-container p:first-child,
+.right-faq-container p:first-child {
+    font-weight: 600;
+    font-size: 19px;
+    color: var(--text-color);
 }
