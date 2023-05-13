@@ -9,6 +9,8 @@ import Sponsors from "./components/Sponsors";
 import Faq from "./components/Faq";
 import Download from "./components/Download";
 import Socials from "./components/Socials";
+import FooterTop from "./components/Footer";
+import FooterBottom from "./components/FooterBottom";
 
 class App extends Component {
     render() {
@@ -21,6 +23,8 @@ class App extends Component {
             <Faq />
             <Download />
             <Socials />
+            <FooterTop />
+            <FooterBottom />
         </>)
     }
 }

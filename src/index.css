@@ -125,7 +125,7 @@ h2 {
     margin-bottom: 48px;
 }
 
-.left-sponsors-container p{
+.left-sponsors-container p {
     font-size: 29px;
     font-weight: 320;
     line-height: 39px;
@@ -168,7 +168,7 @@ h2 {
     font-size: 19px;
 }
 
-.faq-container h2{
+.faq-container h2 {
     font-size: 35px;
 }
 
@@ -209,45 +209,122 @@ h2 {
 }
 
 .right-download-container h2 {
-   font-size: 35px;
+    font-size: 35px;
     line-height: 42px;
     font-weight: 600;
 }
 
 /*Socials*/
-.socials{
+.socials {
     background-color: #f4f4f4;
 }
 
-.socials p{
+.socials p {
     line-height: 19px;
     font-size: 29px;
 }
 
-.form-control{
+.form-control {
     margin-top: 24px;
     border: var(--gray-color) solid 1pt;
     border-radius: 1px;
     padding: 13px;
 }
 
-.form-control:hover{
+.form-control:hover {
     border: var(--dim-color) solid 1pt;
     border-radius: 1px;
 }
 
-.socials a{
+.socials a {
     color: var(--link-color);
     text-decoration: underline var(--text-color);
 }
 
-.socials a:hover{
+.socials a:hover {
     color: var(--link-color);
     text-decoration: underline var(--link-color) 2px;
     font-weight: 450;
 }
 
-.right-socials-container a{
+.right-socials-container a {
     margin-left: 20px;
     line-height: 40px;
+}
+
+/*Top Footer*/
+footer {
+    padding-top: 48px;
+    background-color: #27282c;
+    color: var(--gray-color);
+
+}
+
+footer a {
+    color: var(--gray-color);
+    font-size: 13px;
+    line-height: 16px;
+}
+
+footer p {
+    color: var(--gray-color);
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.top-footer-container {
+    padding-top: 48px;
+    background-color: #27282c;
+    padding-bottom: 96px;
+    border-bottom: 1px solid hsla(0, 0%, 100%, .2);
+}
+
+.top-footer-container h5 {
+    color: #fff;
+    font-size: 14px;
+}
+
+.top-footer-container a {
+    color: var(--gray-color);
+    font-size: 13px;
+    line-height: 16px;
+}
+
+/*Bottom Footer*/
+
+.privacy-use-trademarks {
+    padding-top: 20px;
+    font-size: 13px;
+    text-align: left;
+}
+
+.bottom-footer-container{
+    padding-bottom: 96px;
+}
+
+.copyright-container {
+    padding-top: 50px;
+}
+
+.developed {
+    text-align: right;
+}
+
+.redirect-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.redirect-links a::before {
+    content: "|";
+    margin-right: 10px;
+}
+
+.redirect-links a:last-child::before {
+    content: "|";
+    margin-right: 10px;
+}
+
+.redirect-links a:hover{
+    color: white;
 }

@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b423493-7be6-4fd1-b1b2-58fbb25fa139" name="Changes" comment="Download section">
-      <change afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Redirect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Socials.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FooterBottom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Faq.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Faq.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sponsors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sponsors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Redirect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Redirect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +84,7 @@
       <workItem from="1683793771391" duration="5903000" />
       <workItem from="1683818171656" duration="6249000" />
       <workItem from="1683881502187" duration="16335000" />
-      <workItem from="1683967647446" duration="1315000" />
+      <workItem from="1683967647446" duration="10134000" />
     </task>
     <task id="LOCAL−00001" summary="FAQ section">
       <created>1683883104052</created>
