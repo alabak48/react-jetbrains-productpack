@@ -1,11 +1,8 @@
 import {Col, Container, Image, Row} from "react-bootstrap";
-import Heading from "./Headings";
 import Google from "../assets/google.svg";
 import Salesforce from "../assets/salesforce.svg";
-
 import HP from "../assets/hp.svg";
 import Expedia from "../assets/expedia.svg";
-
 import Samsung from "../assets/samsung.svg";
 import Twitter from "../assets/twt.svg";
 
@@ -18,7 +15,7 @@ function Sponsors() {
                     <Row style={{marginTop: '100px'}}>
                         <Col md={3}>
                             <div className="left-sponsors-container">
-                                <Heading level={5}>Trusted by 320,083<br/>businesses worldwide</Heading>
+                                <p>Trusted by 320,083<br/>businesses worldwide</p>
                             </div>
                         </Col>
                         <Col md={9}>

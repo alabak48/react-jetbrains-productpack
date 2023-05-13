@@ -8,6 +8,7 @@
     --font-eighteen: 18px;
     --font-fourteen: 14px;
     --spacer-sixtyfour: 64px;
+    --link-color: #19191c;
 }
 
 body {
@@ -124,6 +125,12 @@ h2 {
     margin-bottom: 48px;
 }
 
+.left-sponsors-container p{
+    font-size: 29px;
+    font-weight: 320;
+    line-height: 39px;
+}
+
 .right-sponsors-container {
     display: flex;
     margin-left: 96px;
@@ -207,3 +214,40 @@ h2 {
     font-weight: 600;
 }
 
+/*Socials*/
+.socials{
+    background-color: #f4f4f4;
+}
+
+.socials p{
+    line-height: 19px;
+    font-size: 29px;
+}
+
+.form-control{
+    margin-top: 24px;
+    border: var(--gray-color) solid 1pt;
+    border-radius: 1px;
+    padding: 13px;
+}
+
+.form-control:hover{
+    border: var(--dim-color) solid 1pt;
+    border-radius: 1px;
+}
+
+.socials a{
+    color: var(--link-color);
+    text-decoration: underline var(--text-color);
+}
+
+.socials a:hover{
+    color: var(--link-color);
+    text-decoration: underline var(--link-color) 2px;
+    font-weight: 450;
+}
+
+.right-socials-container a{
+    margin-left: 20px;
+    line-height: 40px;
+}
