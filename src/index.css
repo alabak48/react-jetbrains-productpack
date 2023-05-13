@@ -290,6 +290,11 @@ footer p {
     line-height: 16px;
 }
 
+.top-footer-container a:hover {
+    color: white;
+    text-decoration: white underline 1pt solid;
+}
+
 /*Bottom Footer*/
 
 .privacy-use-trademarks {
