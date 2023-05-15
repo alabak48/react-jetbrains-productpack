@@ -333,3 +333,20 @@ footer p {
 .redirect-links a:hover{
     color: white;
 }
+
+/*10IDEs*/
+span{
+    background-color: rgba(39,40,44,0.05);
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 2px 10px;
+    font-size: 13px;
+    color: var(--dim-color);
+    line-height: 20px;
+}
+
+.ten-ide-section a{
+    color: #27282c;
+    font-size: 20px;
+}

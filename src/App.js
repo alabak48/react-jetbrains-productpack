@@ -16,7 +16,7 @@ import TenIdeS from "./components/TenIdeS";
 class App extends Component {
     render() {
         return (<>
-            <NavigationBar/>
+            <NavigationBar />
             <MainSection />
             <TenIdeS />
             <Deals />
