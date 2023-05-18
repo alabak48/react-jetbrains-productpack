@@ -17,28 +17,28 @@ function TenIdeS() {
         <section>
             <Container className={"ten-ide-section"}>
                 <Row style={{marginTop: '100px'}}>
-                    <Col xl={6}>
+                    <Col xl={6} lg={6}>
                         <Heading level={2}>10 IDEs</Heading>
-                        <Col xl={6} lg={4}>
+                        <Col xl={6} lg={4} className={"ide-images"}>
                             <Row>
-                                <Col xl={3} lg={4}><Image src={IntellijIdea}></Image></Col>
-                                <Col xl={3} lg={4}><Image src={WebStorm}></Image></Col>
-                                <Col xl={3} lg={4}><Image src={Rider}></Image></Col>
-                                <Col xl={3} lg={4}><Image src={Pycharm}></Image></Col>
-                                <Col xl={3} lg={4}><Image src={CLion}></Image></Col>
-                                <Col xl={3} lg={4}><Image src={PhpStorm}></Image></Col>
-                                <Col xl={3} lg={4}><Image src={DataGrip}></Image></Col>
-                                <Col xl={3} lg={4}><Image src={DataSpell}></Image></Col>
-                                <Col xl={3} lg={4}><Image src={RubyMine}></Image></Col>
-                                <Col xl={3} lg={4}><Image src={GoLand}></Image></Col>
+                                <Col xl={3} lg={4}><Image src={IntellijIdea} style={{marginTop: '24px'}}></Image></Col>
+                                <Col xl={3} lg={4}><Image src={WebStorm} style={{marginTop: '24px'}}></Image></Col>
+                                <Col xl={3} lg={4}><Image src={Rider} style={{marginTop: '24px'}}></Image></Col>
+                                <Col xl={3} lg={4}><Image src={Pycharm} style={{marginTop: '24px'}}></Image></Col>
+                                <Col xl={3} lg={4}><Image src={CLion} style={{marginTop: '24px'}}></Image></Col>
+                                <Col xl={3} lg={4}><Image src={PhpStorm} style={{marginTop: '24px'}}></Image></Col>
+                                <Col xl={3} lg={4}><Image src={DataGrip} style={{marginTop: '24px'}}></Image></Col>
+                                <Col xl={3} lg={4}><Image src={DataSpell} style={{marginTop: '24px'}}></Image></Col>
+                                <Col xl={3} lg={4}><Image src={RubyMine} style={{marginTop: '24px'}}></Image></Col>
+                                <Col xl={3} lg={4}><Image src={GoLand} style={{marginTop: '24px'}}></Image></Col>
                             </Row>
                     </Col>
                     </Col>
 
-                    <Col xl={6} lg={4}>
+                    <Col xl={6} lg={6}>
                         <Row className="space-around">
                                 <Row>
-                                    <Col xl={6}>
+                                    <Col xl={6} lg={4}>
                                         <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                             IntelliJ IDEA Ultimate
                                         </a>

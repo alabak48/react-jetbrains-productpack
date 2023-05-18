@@ -335,7 +335,9 @@ footer p {
 }
 
 /*10IDEs*/
-span{
+
+
+.ten-ide-section span{
     background-color: rgba(39,40,44,0.05);
     margin-top: 10px;
     margin-right: 10px;
@@ -349,4 +351,8 @@ span{
 .ten-ide-section a{
     color: #27282c;
     font-size: 20px;
+}
+
+.ide-images > * {
+    margin-right: -180px;
 }
