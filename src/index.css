@@ -353,6 +353,13 @@ footer p {
     font-size: 20px;
 }
 
+.ten-ide-section a:hover {
+    color: var(--orange-color);
+}
+
 .ide-images > * {
     margin-right: -180px;
 }
+
+
+
