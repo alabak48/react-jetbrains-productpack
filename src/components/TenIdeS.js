@@ -34,7 +34,6 @@ function TenIdeS() {
                                 <Col xl={3} lg={4}>
                                     <Image
                                         src={IntellijIdea}
-                                        className={hoveredText !== "IntelliJ IDEA Ultimate" ? "grayed-out" : ""}
                                         style={{
                                             marginTop: "30px",
                                             opacity: hoveredText && hoveredText !== "IntellijIdea" ? 0.5 : 1
@@ -44,7 +43,6 @@ function TenIdeS() {
                                 <Col xl={3} lg={4}>
                                     <Image
                                         src={WebStorm}
-                                        className={hoveredText !== "IntelliJ IDEA Ultimate" ? "grayed-out" : ""}
                                         style={{
                                             marginTop: "30px",
                                             opacity: hoveredText && hoveredText !== "WebStorm" ? 0.5 : 1
@@ -53,7 +51,6 @@ function TenIdeS() {
                                 </Col>
                                 <Col xl={3} lg={4}><Image
                                     src={Rider}
-                                    className={hoveredText !== "IntelliJ IDEA Ultimate" ? "grayed-out" : ""}
                                     style={{
                                         marginTop: "30px",
                                         opacity: hoveredText && hoveredText !== "Rider" ? 0.5 : 1
@@ -61,7 +58,6 @@ function TenIdeS() {
                                 /></Col>
                                 <Col xl={3} lg={4}><Image
                                     src={Pycharm}
-                                    className={hoveredText !== "IntelliJ IDEA Ultimate" ? "grayed-out" : ""}
                                     style={{
                                         marginTop: "30px",
                                         opacity: hoveredText && hoveredText !== "Pycharm" ? 0.5 : 1
@@ -69,7 +65,6 @@ function TenIdeS() {
                                 /></Col>
                                 <Col xl={3} lg={4}><Image
                                     src={CLion}
-                                    className={hoveredText !== "IntelliJ IDEA Ultimate" ? "grayed-out" : ""}
                                     style={{
                                         marginTop: "30px",
                                         opacity: hoveredText && hoveredText !== "CLion" ? 0.5 : 1
@@ -77,7 +72,6 @@ function TenIdeS() {
                                 /></Col>
                                 <Col xl={3} lg={4}><Image
                                     src={PhpStorm}
-                                    className={hoveredText !== "IntelliJ IDEA Ultimate" ? "grayed-out" : ""}
                                     style={{
                                         marginTop: "30px",
                                         opacity: hoveredText && hoveredText !== "PhpStorm" ? 0.5 : 1
@@ -85,7 +79,6 @@ function TenIdeS() {
                                 /></Col>
                                 <Col xl={3} lg={4}><Image
                                     src={DataGrip}
-                                    className={hoveredText !== "IntelliJ IDEA Ultimate" ? "grayed-out" : ""}
                                     style={{
                                         marginTop: "30px",
                                         opacity: hoveredText && hoveredText !== "DataGrip" ? 0.5 : 1
@@ -93,7 +86,6 @@ function TenIdeS() {
                                 /></Col>
                                 <Col xl={3} lg={4}><Image
                                     src={DataSpell}
-                                    className={hoveredText !== "IntelliJ IDEA Ultimate" ? "grayed-out" : ""}
                                     style={{
                                         marginTop: "30px",
                                         opacity: hoveredText && hoveredText !== "DataSpell" ? 0.5 : 1
@@ -101,20 +93,19 @@ function TenIdeS() {
                                 /></Col>
                                 <Col xl={3} lg={4}><Image
                                     src={RubyMine}
-                                    className={hoveredText !== "IntelliJ IDEA Ultimate" ? "grayed-out" : ""}
                                     style={{
                                         marginTop: "30px",
                                         opacity: hoveredText && hoveredText !== "RubyMine" ? 0.5 : 1
                                     }}
                                 /></Col>
-                                <Col xl={3} lg={4}><Image
-                                    src={GoLand}
-                                    className={hoveredText !== "IntelliJ IDEA Ultimate" ? "grayed-out" : ""}
-                                    style={{
-                                        marginTop: "30px",
-                                        opacity: hoveredText && hoveredText !== "GoLand" ? 0.5 : 1
-                                    }}
-                                /></Col>
+                                <Col xl={3} lg={4}>
+                                    <Image
+                                        src={GoLand}
+                                        style={{
+                                            marginTop: "30px",
+                                            opacity: hoveredText && hoveredText !== "GoLand" ? 0.5 : 1
+                                        }}
+                                    /></Col>
                             </Row>
                         </Col>
                     </Col>
