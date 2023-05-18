@@ -118,7 +118,7 @@ function TenIdeS() {
                     <Col xl={6} lg={6}>
                         <Row className="space-around">
                             <Row>
-                                <Col xl={6} lg={4} onMouseEnter={() => handleTextHover("IntellijIdea")}
+                                <Col xl={6} lg={7} onMouseEnter={() => handleTextHover("IntellijIdea")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         IntelliJ IDEA Ultimate
@@ -129,7 +129,7 @@ function TenIdeS() {
                                     <span>Groovy</span>
                                     <span>Scala</span>
                                 </Col>
-                                <Col xl={6} onMouseEnter={() => handleTextHover("WebStorm")}
+                                <Col xl={6} lg={5} onMouseEnter={() => handleTextHover("WebStorm")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         WebStorm
@@ -142,7 +142,7 @@ function TenIdeS() {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col xl={6} onMouseEnter={() => handleTextHover("Rider")}
+                                <Col xl={6} lg={7} onMouseEnter={() => handleTextHover("Rider")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         Rider
@@ -153,7 +153,7 @@ function TenIdeS() {
                                     <span>ASP.NET</span>
                                     <span>.NET Core</span>
                                 </Col>
-                                <Col xl={6} onMouseEnter={() => handleTextHover("Pycharm")}
+                                <Col xl={6} lg={5} onMouseEnter={() => handleTextHover("Pycharm")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         PyCharm Professional
@@ -166,7 +166,7 @@ function TenIdeS() {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col xl={6} onMouseEnter={() => handleTextHover("CLion")}
+                                <Col xl={6} lg={7} onMouseEnter={() => handleTextHover("CLion")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         CLion
@@ -177,7 +177,7 @@ function TenIdeS() {
                                     <span>Rust</span>
                                     <span>Python</span>
                                 </Col>
-                                <Col xl={6} onMouseEnter={() => handleTextHover("PhpStorm")}
+                                <Col xl={6} lg={5} onMouseEnter={() => handleTextHover("PhpStorm")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         PhpStorm
@@ -190,7 +190,7 @@ function TenIdeS() {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col xl={6} onMouseEnter={() => handleTextHover("DataGrip")}
+                                <Col xl={6} lg={7} onMouseEnter={() => handleTextHover("DataGrip")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         DataGrip
@@ -199,7 +199,7 @@ function TenIdeS() {
                                     <span>SQL/NoSQL</span>
                                     <span>Databases</span>
                                 </Col>
-                                <Col xl={6} onMouseEnter={() => handleTextHover("DataSpell")}
+                                <Col xl={6} lg={5} onMouseEnter={() => handleTextHover("DataSpell")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         DataSpell
@@ -211,7 +211,7 @@ function TenIdeS() {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col xl={6} onMouseEnter={() => handleTextHover("RubyMine")}
+                                <Col xl={6} lg={8} onMouseEnter={() => handleTextHover("RubyMine")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         RubyMine
@@ -222,7 +222,7 @@ function TenIdeS() {
                                     <span>SQL/NoSQL</span>
                                     <span>Databases</span>
                                 </Col>
-                                <Col xl={6} onMouseEnter={() => handleTextHover("GoLand")}
+                                <Col xl={6} lg={4} onMouseEnter={() => handleTextHover("GoLand")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         GoLand

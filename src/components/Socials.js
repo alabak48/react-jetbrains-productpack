@@ -13,7 +13,7 @@ function Socials() {
                 <Row style={{paddingTop: 98, paddingBottom: 98}}>
                     <Col xl={12}>
                         <Row>
-                            <Col xl={6}>
+                            <Col xl={6} lg={6}>
                                 <div className="left-socials-container">
                                     <Form>
                                         <p>Stay updated</p>
@@ -29,7 +29,7 @@ function Socials() {
                                     </Form>
                                 </div>
                             </Col>
-                            <Col xl={6}>
+                            <Col xl={6} lg={6}>
                                 <div className="right-socials-container">
                                     <RedirectLink
                                         iconSrc={faBookOpenReader}

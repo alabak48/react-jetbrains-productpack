@@ -17,7 +17,7 @@ function FooterBottom() {
         <footer>
             <Container className={"bottom-footer-container"}>
                 <Row className={"social-media-icons"}>
-                    <Col xl={12}>
+                    <Col xl={12} lg={12}>
                         <FontAwesomeIcon icon={faSquareFacebook} style={{marginRight: 40}}/>
                         <FontAwesomeIcon icon={faTwitter} style={{marginRight: 40}}/>
                         <FontAwesomeIcon icon={faLinkedin} style={{marginRight: 40}}/>
@@ -29,7 +29,7 @@ function FooterBottom() {
                 </Row>
                 <Row className={"privacy-use-trademarks"}>
                     <Row className={"privacy-use-trademarks"}>
-                        <Col xl={5} style={{display: "flex", flexWrap: "nowrap"}} className={"redirect-links"}>
+                        <Col xl={5} lg={7} style={{display: "flex", flexWrap: "nowrap"}} className={"redirect-links"}>
                             <RedirectLink redirectUrl={"https://www.jetbrains.com/privacy-security/"}
                                           textUrl={"Privacy & Security"} style={{marginRight: 40}}/>
                             <RedirectLink redirectUrl={"https://www.jetbrains.com/legal/docs/company/useterms.html"}
@@ -44,7 +44,7 @@ function FooterBottom() {
                     </Row>
                 </Row>
                 <Row className={"copyright-container"}>
-                    <Col xl={4}>
+                    <Col xl={4} lg={4}>
                         <p>Copyright © 2000-2023 JetBrains s.r.o.</p>
                     </Col>
                     <Col xl={8} className={"developed"}>
