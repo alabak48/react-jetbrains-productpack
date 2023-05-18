@@ -11,6 +11,11 @@ import DataGrip from "@jetbrains/logos/datagrip/datagrip.svg"
 import DataSpell from "@jetbrains/logos/dataspell/dataspell.svg"
 import RubyMine from "@jetbrains/logos/rubymine/rubymine.svg"
 import GoLand from "@jetbrains/logos/goland/goland.svg"
+import ReSharper from "@jetbrains/logos/resharper/resharper.svg"
+import ReSharperC from "@jetbrains/logos/resharper-cpp/resharper-cpp.svg"
+import dotCover from "@jetbrains/logos/dotcover/dotcover.svg"
+import dotMemory from "@jetbrains/logos/dotmemory/dotmemory.svg"
+import dotTrace from "@jetbrains/logos/dottrace/dottrace.svg"
 
 
 function TenIdeS() {
@@ -234,8 +239,121 @@ function TenIdeS() {
                 </Row>
             </Container>
 
+            <Container className={"extended-ide-section"}>
+                <Row style={{marginTop: '100px'}}>
+                    <Col xl={6} lg={6}>
+                        <Heading level={2}>3 Extensions & 2 Profilers</Heading>
+                        <Col xl={6} lg={4} className={"ide-extended-images"}>
+                            <Row>
+                                <Col xl={3} lg={4}>
+                                    <Image
+                                        src={ReSharper}
+                                        style={{
+                                            marginTop: "30px",
+                                            opacity: hoveredText && hoveredText !== "ReSharper" ? 0.5 : 1
+                                        }}
+                                    />
+                                </Col>
+                                <Col xl={3} lg={4}>
+                                    <Image
+                                        src={ReSharperC}
+                                        style={{
+                                            marginTop: "30px",
+                                            opacity: hoveredText && hoveredText !== "ReSharper C++" ? 0.5 : 1
+                                        }}
+                                    />
+                                </Col>
+                                <Col xl={3} lg={4}><Image
+                                    src={dotCover}
+                                    style={{
+                                        marginTop: "30px",
+                                        opacity: hoveredText && hoveredText !== "dotCover" ? 0.5 : 1
+                                    }}
+                                /></Col>
+                                <Col xl={3} lg={4}><Image
+                                    src={dotMemory}
+                                    style={{
+                                        marginTop: "30px",
+                                        opacity: hoveredText && hoveredText !== "dotMemory" ? 0.5 : 1
+                                    }}
+                                /></Col>
+                                <Col xl={3} lg={4}><Image
+                                    src={dotTrace}
+                                    style={{
+                                        marginTop: "30px",
+                                        opacity: hoveredText && hoveredText !== "dotTrace" ? 0.5 : 1
+                                    }}
+                                /></Col>
+                            </Row>
+                        </Col>
+                    </Col>
+
+                    <Col xl={6} lg={6}>
+                        <Row className="space-around">
+                            <Row>
+                                <Col xl={6} lg={4} onMouseEnter={() => handleTextHover("ReSharper")}
+                                     onMouseLeave={handleTextLeave}>
+                                    <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                        ReSharper</a>
+                                    </Heading>
+                                    <span>.NET</span>
+                                    <span>C#</span>
+                                    <span>.NET Core</span>
+                                    <span>ASP.NET</span>
+                                </Col>
+                                <Col xl={6} onMouseEnter={() => handleTextHover("ReSharper C++")}
+                                     onMouseLeave={handleTextLeave}>
+                                    <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                        ReSharper C++
+                                    </a>
+                                    </Heading>
+                                    <span>C/C++</span>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col xl={6} onMouseEnter={() => handleTextHover("dotCover")}
+                                     onMouseLeave={handleTextLeave}>
+                                    <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                        dotCover
+                                    </a>
+                                    </Heading>
+                                    <span>.NET</span>
+                                    <span>.NET Core</span>
+                                    <span>Mono</span>
+                                </Col>
+                                <Col xl={6} onMouseEnter={() => handleTextHover("dotMemory")}
+                                     onMouseLeave={handleTextLeave}>
+                                    <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                        dotMemory                                    </a>
+                                    </Heading>
+                                    <span>.NET</span>
+                                    <span>.NET Core</span>
+                                    <span>Mono</span>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col xl={6} onMouseEnter={() => handleTextHover("dotTrace")}
+                                     onMouseLeave={handleTextLeave}>
+                                    <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                        dotTrace
+                                    </a>
+                                    </Heading>
+                                    <span>.NET</span>
+                                    <span>.NET Core</span>
+                                    <span>Mono</span>
+                                </Col>
+
+                            </Row>
+                        </Row>
+                    </Col>
+                </Row>
+            </Container>
+
         </section>
-    )
+
+
+
+)
 }
 
 export default TenIdeS

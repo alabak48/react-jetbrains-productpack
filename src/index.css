@@ -337,7 +337,7 @@ footer p {
 /*10IDEs*/
 
 
-.ten-ide-section span{
+.ten-ide-section span, .extended-ide-section span{
     background-color: rgba(39,40,44,0.05);
     margin-top: 10px;
     margin-right: 10px;
@@ -348,16 +348,16 @@ footer p {
     line-height: 20px;
 }
 
-.ten-ide-section a{
+.ten-ide-section a, .extended-ide-section a{
     color: #27282c;
     font-size: 20px;
 }
 
-.ten-ide-section a:hover {
+.ten-ide-section a:hover , .extended-ide-section a:hover {
     color: var(--orange-color);
 }
 
-.ide-images > * {
+.ide-images > * , .ide-extended-images > * {
     margin-right: -180px;
 }
 
