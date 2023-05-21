@@ -6,12 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="7b423493-7be6-4fd1-b1b2-58fbb25fa139" name="Changes" comment="Footer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Faq.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Faq.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FooterBottom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FooterBottom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Download.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Download.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/FooterTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FooterTop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Socials.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Socials.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sponsors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sponsors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TenIdeS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TenIdeS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToolboxApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToolboxApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +45,13 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/anja0/Documents/GitHub/react-jetbrains-productpack&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -89,6 +94,7 @@
       <workItem from="1683985133442" duration="3218000" />
       <workItem from="1684175962798" duration="4133000" />
       <workItem from="1684392625558" duration="13023000" />
+      <workItem from="1684684048248" duration="4666000" />
     </task>
     <task id="LOCAL−00001" summary="FAQ section">
       <created>1683883104052</created>

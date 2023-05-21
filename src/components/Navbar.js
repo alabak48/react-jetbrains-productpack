@@ -12,7 +12,7 @@ function NavigationBar() {
                     <Container>
                         <Row>
                             <Col md={12}>
-                                <Navbar collapseOnSelect expand="lg" className='navigation' >
+                                <Navbar collapseOnSelect expand="xl" className='navigation' >
                                     <Container className='NavigationContainer'>
                                         <Navbar.Brand href="#home" id='toolbox'>All Products Pack</Navbar.Brand>
                                         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>

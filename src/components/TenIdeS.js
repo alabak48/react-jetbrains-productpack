@@ -32,11 +32,11 @@ function TenIdeS() {
         <section>
             <Container className={"ten-ide-section"}>
                 <Row style={{marginTop: '100px'}}>
-                    <Col xl={6} lg={6}>
+                    <Col xl={6} lg={6} sm={6}>
                         <Heading level={2}>10 IDEs</Heading>
-                        <Col xl={6} lg={4} className={"ide-images"}>
+                        <Col xl={6} lg={4} sm={6} className={"ide-images"}>
                             <Row>
-                                <Col xl={3} lg={4}>
+                                <Col xl={3} lg={4} sm={1}>
                                     <Image
                                         src={IntellijIdea}
                                         style={{
@@ -45,7 +45,7 @@ function TenIdeS() {
                                         }}
                                     />
                                 </Col>
-                                <Col xl={3} lg={4}>
+                                <Col xl={3} lg={4} sm={2}>
                                     <Image
                                         src={WebStorm}
                                         style={{
@@ -54,56 +54,56 @@ function TenIdeS() {
                                         }}
                                     />
                                 </Col>
-                                <Col xl={3} lg={4}><Image
+                                <Col xl={3} lg={4} sm={2}><Image
                                     src={Rider}
                                     style={{
                                         marginTop: "30px",
                                         opacity: hoveredText && hoveredText !== "Rider" ? 0.5 : 1
                                     }}
                                 /></Col>
-                                <Col xl={3} lg={4}><Image
+                                <Col xl={3} lg={4} sm={2}><Image
                                     src={Pycharm}
                                     style={{
                                         marginTop: "30px",
                                         opacity: hoveredText && hoveredText !== "Pycharm" ? 0.5 : 1
                                     }}
                                 /></Col>
-                                <Col xl={3} lg={4}><Image
+                                <Col xl={3} lg={4} sm={2}><Image
                                     src={CLion}
                                     style={{
                                         marginTop: "30px",
                                         opacity: hoveredText && hoveredText !== "CLion" ? 0.5 : 1
                                     }}
                                 /></Col>
-                                <Col xl={3} lg={4}><Image
+                                <Col xl={3} lg={4} sm={2}><Image
                                     src={PhpStorm}
                                     style={{
                                         marginTop: "30px",
                                         opacity: hoveredText && hoveredText !== "PhpStorm" ? 0.5 : 1
                                     }}
                                 /></Col>
-                                <Col xl={3} lg={4}><Image
+                                <Col xl={3} lg={4} sm={2}><Image
                                     src={DataGrip}
                                     style={{
                                         marginTop: "30px",
                                         opacity: hoveredText && hoveredText !== "DataGrip" ? 0.5 : 1
                                     }}
                                 /></Col>
-                                <Col xl={3} lg={4}><Image
+                                <Col xl={3} lg={4} sm={2}><Image
                                     src={DataSpell}
                                     style={{
                                         marginTop: "30px",
                                         opacity: hoveredText && hoveredText !== "DataSpell" ? 0.5 : 1
                                     }}
                                 /></Col>
-                                <Col xl={3} lg={4}><Image
+                                <Col xl={3} lg={4} sm={2}><Image
                                     src={RubyMine}
                                     style={{
                                         marginTop: "30px",
                                         opacity: hoveredText && hoveredText !== "RubyMine" ? 0.5 : 1
                                     }}
                                 /></Col>
-                                <Col xl={3} lg={4}>
+                                <Col xl={3} lg={4} sm={2}>
                                     <Image
                                         src={GoLand}
                                         style={{
@@ -115,10 +115,10 @@ function TenIdeS() {
                         </Col>
                     </Col>
 
-                    <Col xl={6} lg={6}>
+                    <Col xl={6} lg={5}>
                         <Row className="space-around">
                             <Row>
-                                <Col xl={6} lg={7} onMouseEnter={() => handleTextHover("IntellijIdea")}
+                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("IntellijIdea")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         IntelliJ IDEA Ultimate
@@ -129,7 +129,7 @@ function TenIdeS() {
                                     <span>Groovy</span>
                                     <span>Scala</span>
                                 </Col>
-                                <Col xl={6} lg={5} onMouseEnter={() => handleTextHover("WebStorm")}
+                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("WebStorm")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         WebStorm
@@ -142,7 +142,7 @@ function TenIdeS() {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col xl={6} lg={7} onMouseEnter={() => handleTextHover("Rider")}
+                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("Rider")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         Rider
@@ -153,7 +153,7 @@ function TenIdeS() {
                                     <span>ASP.NET</span>
                                     <span>.NET Core</span>
                                 </Col>
-                                <Col xl={6} lg={5} onMouseEnter={() => handleTextHover("Pycharm")}
+                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("Pycharm")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         PyCharm Professional
@@ -166,7 +166,7 @@ function TenIdeS() {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col xl={6} lg={7} onMouseEnter={() => handleTextHover("CLion")}
+                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("CLion")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         CLion
@@ -177,7 +177,7 @@ function TenIdeS() {
                                     <span>Rust</span>
                                     <span>Python</span>
                                 </Col>
-                                <Col xl={6} lg={5} onMouseEnter={() => handleTextHover("PhpStorm")}
+                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("PhpStorm")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         PhpStorm
@@ -190,7 +190,7 @@ function TenIdeS() {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col xl={6} lg={7} onMouseEnter={() => handleTextHover("DataGrip")}
+                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("DataGrip")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         DataGrip
@@ -199,7 +199,7 @@ function TenIdeS() {
                                     <span>SQL/NoSQL</span>
                                     <span>Databases</span>
                                 </Col>
-                                <Col xl={6} lg={5} onMouseEnter={() => handleTextHover("DataSpell")}
+                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("DataSpell")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         DataSpell
@@ -211,7 +211,7 @@ function TenIdeS() {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col xl={6} lg={8} onMouseEnter={() => handleTextHover("RubyMine")}
+                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("RubyMine")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         RubyMine
@@ -222,7 +222,7 @@ function TenIdeS() {
                                     <span>SQL/NoSQL</span>
                                     <span>Databases</span>
                                 </Col>
-                                <Col xl={6} lg={4} onMouseEnter={() => handleTextHover("GoLand")}
+                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("GoLand")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         GoLand
@@ -291,7 +291,7 @@ function TenIdeS() {
                     <Col xl={6} lg={6}>
                         <Row className="space-around">
                             <Row>
-                                <Col xl={6} lg={4} onMouseEnter={() => handleTextHover("ReSharper")}
+                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("ReSharper")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         ReSharper</a>
@@ -301,7 +301,7 @@ function TenIdeS() {
                                     <span>.NET Core</span>
                                     <span>ASP.NET</span>
                                 </Col>
-                                <Col xl={6} onMouseEnter={() => handleTextHover("ReSharper C++")}
+                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("ReSharper C++")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         ReSharper C++
@@ -311,7 +311,7 @@ function TenIdeS() {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col xl={6} onMouseEnter={() => handleTextHover("dotCover")}
+                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("dotCover")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         dotCover
@@ -321,7 +321,7 @@ function TenIdeS() {
                                     <span>.NET Core</span>
                                     <span>Mono</span>
                                 </Col>
-                                <Col xl={6} onMouseEnter={() => handleTextHover("dotMemory")}
+                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("dotMemory")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         dotMemory                                    </a>
@@ -332,7 +332,7 @@ function TenIdeS() {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col xl={6} onMouseEnter={() => handleTextHover("dotTrace")}
+                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("dotTrace")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         dotTrace

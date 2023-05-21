@@ -9,7 +9,7 @@ function Download(props) {
             <main>
                 <div className="download-container">
                     <Row style={{marginTop: '100px'}}>
-                        <Col md={6}>
+                        <Col md={6} sm={6}>
                             <div className="left-download-container">
                                 <Image src={DownloadImage} alt="All Products Pack Image"></Image>
                             </div>

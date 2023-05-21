@@ -13,26 +13,26 @@ function Sponsors() {
             <div className="sponsors-container">
                 <Container>
                     <Row style={{marginTop: '100px'}}>
-                        <Col md={3} lg={4}>
+                        <Col md={3} lg={4} sm={4}>
                             <div className="left-sponsors-container">
                                 <p>Trusted by 320,083<br/>businesses worldwide</p>
                             </div>
                         </Col>
-                        <Col md={9} lg={6}>
+                        <Col md={9} lg={6} sm={4}>
                             <div className="right-sponsors-container">
-                                <Col md={3} lg={2}>
+                                <Col md={3} lg={2} sm={12}>
                                     <div className="google-salesforce">
                                         <Image src={Google} alt="Google Logo" className="sponsor-image google"></Image>
                                         <Image src={Salesforce} alt="Salesforce logo" className="sponsor-image salesforce"></Image>
                                     </div>
                                 </Col>
-                                <Col md={3} lg={3}>
+                                <Col md={3} lg={3} sm={12}>
                                     <div className="hp-expedia">
                                         <Image src={HP} alt="HP Logo" className="sponsor-image hp"></Image>
                                         <Image src={Expedia} alt="Expedia Logo" className="sponsor-image expedia"></Image>
                                     </div>
                                 </Col>
-                                <Col md={3} lg={3}>
+                                <Col md={3} lg={3} sm={12}>
                                     <div className="samsung-twitter">
                                         <Image src={Samsung} alt="Samsung" className="sponsor-image samsung"></Image>
                                         <Image src={Twitter} alt="Twitter" className="sponsor-image twitter"></Image>

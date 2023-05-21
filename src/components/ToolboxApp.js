@@ -10,7 +10,7 @@ function ToolboxApp() {
                     <Row style={{marginTop: '100px'}}>
                         <Col md={4}>
                             <div className="left-toolbox-container">
-                                <Image src={ScreenshotImage} alt="All Products Pack Image"></Image>
+                                <Image src={ScreenshotImage} alt="All Products Pack Image" ></Image>
                             </div>
                         </Col>
                         <Col md={8}>

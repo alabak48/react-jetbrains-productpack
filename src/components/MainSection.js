@@ -9,8 +9,8 @@ function MainSection(props) {
             <main>
                 <div className="heading-container">
                     <Row style={{marginTop: '100px'}}>
-                        <Col md={6}>
-                            <div className="left-heading-container">
+                        <Col md={6} sm={0}>
+                            <div className="left-heading-container" >
                                 <Image src={MainImage} alt="All Products Pack Image"></Image>
                             </div>
                         </Col>
