@@ -31,216 +31,224 @@ function TenIdeS() {
     return (
         <section>
             <Container className={"ten-ide-section"}>
-                <Row style={{marginTop: '100px'}}>
-                    <Col xl={6} lg={6} sm={6} className="order-2 order-sm-1">
+                <Row style={{marginTop: '100px'}} xs={2}>
+                    <Col xl={6} lg={6} sm={3} className="order-2 order-sm-1">
                         <Heading level={2}>10 IDEs</Heading>
-                        <Col xl={6} lg={4} sm={6} className={"ide-images"}>
-                            <Row>
+                        <Col xl={6} lg={4} sm={1} className="ide-images">
+                            <Row xs={1}>
                                 <Col xl={3} lg={4} sm={1}>
                                     <Image
                                         src={IntellijIdea}
                                         style={{
-                                            marginTop: "30px",
                                             opacity: hoveredText && hoveredText !== "IntellijIdea" ? 0.5 : 1
                                         }}
+                                        alt="IntellijIdea Icon"
+                                        className="intellijidea icon"
                                     />
                                 </Col>
-                                <Col xl={3} lg={4} sm={2}>
+                                <Col xl={3} lg={4} sm={1}>
                                     <Image
                                         src={WebStorm}
                                         style={{
-                                            marginTop: "30px",
                                             opacity: hoveredText && hoveredText !== "WebStorm" ? 0.5 : 1
                                         }}
+                                        alt="WebStorm Icon"
+                                        className="webstorm icon"
                                     />
                                 </Col>
-                                <Col xl={3} lg={4} sm={2}><Image
+                                <Col xl={3} lg={4} sm={1}><Image
                                     src={Rider}
                                     style={{
-                                        marginTop: "30px",
                                         opacity: hoveredText && hoveredText !== "Rider" ? 0.5 : 1
                                     }}
+                                    alt="Rider Icon"
+                                    className="rider icon"
                                 /></Col>
-                                <Col xl={3} lg={4} sm={2}><Image
+                                <Col xl={3} lg={4} sm={1}><Image
                                     src={Pycharm}
                                     style={{
-                                        marginTop: "30px",
                                         opacity: hoveredText && hoveredText !== "Pycharm" ? 0.5 : 1
                                     }}
+                                    alt="Pycharm Icon"
+                                    className="pycharm icon"
                                 /></Col>
-                                <Col xl={3} lg={4} sm={2}><Image
+                                <Col xl={3} lg={4} sm={1}><Image
                                     src={CLion}
                                     style={{
-                                        marginTop: "30px",
                                         opacity: hoveredText && hoveredText !== "CLion" ? 0.5 : 1
                                     }}
+                                    alt="CLion Icon"
+                                    className="clion icon"
                                 /></Col>
-                                <Col xl={3} lg={4} sm={2}><Image
+                                <Col xl={3} lg={4} sm={1}><Image
                                     src={PhpStorm}
                                     style={{
-                                        marginTop: "30px",
                                         opacity: hoveredText && hoveredText !== "PhpStorm" ? 0.5 : 1
                                     }}
+                                    alt="PhpStorm Icon"
+                                    className="phpstorm icon"
                                 /></Col>
-                                <Col xl={3} lg={4} sm={2}><Image
+                                <Col xl={3} lg={4} sm={1}><Image
                                     src={DataGrip}
                                     style={{
-                                        marginTop: "30px",
                                         opacity: hoveredText && hoveredText !== "DataGrip" ? 0.5 : 1
                                     }}
+                                    alt="DataGrip Icon"
+                                    className="datagrip icon"
                                 /></Col>
-                                <Col xl={3} lg={4} sm={2}><Image
+                                <Col xl={3} lg={4} sm={1}><Image
                                     src={DataSpell}
                                     style={{
-                                        marginTop: "30px",
                                         opacity: hoveredText && hoveredText !== "DataSpell" ? 0.5 : 1
                                     }}
+                                    alt="DataSpell Icon"
+                                    className="dataspell icon"
                                 /></Col>
-                                <Col xl={3} lg={4} sm={2}><Image
+                                <Col xl={3} lg={4} sm={1}><Image
                                     src={RubyMine}
                                     style={{
-                                        marginTop: "30px",
                                         opacity: hoveredText && hoveredText !== "RubyMine" ? 0.5 : 1
                                     }}
+                                    alt="RubyMine Icon"
+                                    className="rubymine icon"
                                 /></Col>
-                                <Col xl={3} lg={4} sm={2}>
+                                <Col xl={3} lg={4} sm={1}>
                                     <Image
                                         src={GoLand}
                                         style={{
-                                            marginTop: "30px",
                                             opacity: hoveredText && hoveredText !== "GoLand" ? 0.5 : 1
                                         }}
+                                        alt="GoLand Icon"
+                                        className="goland icon"
                                     /></Col>
                             </Row>
                         </Col>
                     </Col>
 
-                    <Col xl={6} lg={5} className="order-1 order-sm-2">
-                        <Row className="space-around">
-                            <Row>
-                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("IntellijIdea")}
-                                     onMouseLeave={handleTextLeave}>
-                                    <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
-                                        IntelliJ IDEA Ultimate
-                                    </a>
-                                    </Heading>
-                                    <span>Java</span>
-                                    <span>Kotlin</span>
-                                    <span>Groovy</span>
-                                    <span>Scala</span>
-                                </Col>
-                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("WebStorm")}
-                                     onMouseLeave={handleTextLeave}>
-                                    <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
-                                        WebStorm
-                                    </a>
-                                    </Heading>
-                                    <span>JavaScript, TypeScript</span>
-                                    <span>Angular</span>
-                                    <span>React</span>
-                                    <span>Node.js</span>
-                                </Col>
-                            </Row>
-                            <Row>
-                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("Rider")}
-                                     onMouseLeave={handleTextLeave}>
-                                    <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
-                                        Rider
-                                    </a>
-                                    </Heading>
-                                    <span>.NET</span>
-                                    <span>C#</span>
-                                    <span>ASP.NET</span>
-                                    <span>.NET Core</span>
-                                </Col>
-                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("Pycharm")}
-                                     onMouseLeave={handleTextLeave}>
-                                    <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
-                                        PyCharm Professional
-                                    </a>
-                                    </Heading>
-                                    <span>Python</span>
-                                    <span>JavaScript, TypeScript</span>
-                                    <span>SQL/NoSQL</span>
-                                    <span>Data Science</span>
-                                </Col>
-                            </Row>
-                            <Row>
-                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("CLion")}
-                                     onMouseLeave={handleTextLeave}>
-                                    <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
-                                        CLion
-                                    </a>
-                                    </Heading>
-                                    <span>C/C++</span>
-                                    <span>Embedded</span>
-                                    <span>Rust</span>
-                                    <span>Python</span>
-                                </Col>
-                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("PhpStorm")}
-                                     onMouseLeave={handleTextLeave}>
-                                    <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
-                                        PhpStorm
-                                    </a>
-                                    </Heading>
-                                    <span>PHP</span>
-                                    <span>JavaScript, TypeScript</span>
-                                    <span>SQL/NoSQL</span>
-                                    <span>Databases</span>
-                                </Col>
-                            </Row>
-                            <Row>
-                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("DataGrip")}
-                                     onMouseLeave={handleTextLeave}>
-                                    <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
-                                        DataGrip
-                                    </a>
-                                    </Heading>
-                                    <span>SQL/NoSQL</span>
-                                    <span>Databases</span>
-                                </Col>
-                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("DataSpell")}
-                                     onMouseLeave={handleTextLeave}>
-                                    <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
-                                        DataSpell
-                                    </a>
-                                    </Heading>
-                                    <span>Data Science</span>
-                                    <span>Python</span>
-                                    <span>Jupyter</span>
-                                </Col>
-                            </Row>
-                            <Row>
-                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("RubyMine")}
-                                     onMouseLeave={handleTextLeave}>
-                                    <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
-                                        RubyMine
-                                    </a>
-                                    </Heading>
-                                    <span>Ruby, Rails</span>
-                                    <span>JavaScript, TypeScript</span>
-                                    <span>SQL/NoSQL</span>
-                                    <span>Databases</span>
-                                </Col>
-                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("GoLand")}
-                                     onMouseLeave={handleTextLeave}>
-                                    <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
-                                        GoLand
-                                    </a>
-                                    </Heading>
-                                    <span>Go</span>
-                                    <span>JavaScript, TypeScript</span>
-                                    <span>SQL/NoSQL</span>
-                                    <span>Databases</span>
-                                </Col>
-                            </Row>
+                    <Col xl={6} lg={5} sm={6} className="right-ide-container order-1 order-sm-2">
+                        <Row xs={1}>
+                            <Col xl={6} lg={6} sm={3} onMouseEnter={() => handleTextHover("IntellijIdea")}
+                                 onMouseLeave={handleTextLeave}>
+                                <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                    IntelliJ IDEA Ultimate
+                                </a>
+                                </Heading>
+                                <p>Java</p>
+                                <p>Kotlin</p>
+                                <p>Groovy</p>
+                                <p>Scala</p>
+                            </Col>
+                            <Col xl={6} lg={6} sm={12} onMouseEnter={() => handleTextHover("WebStorm")}
+                                 onMouseLeave={handleTextLeave}>
+                                <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                    WebStorm
+                                </a>
+                                </Heading>
+                                <p>JavaScript</p>
+                                <p>Angular</p>
+                                <p>React</p>
+                                <p>Node.js</p>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col xl={6} lg={6} sm={12} onMouseEnter={() => handleTextHover("Rider")}
+                                 onMouseLeave={handleTextLeave}>
+                                <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                    Rider
+                                </a>
+                                </Heading>
+                                <p>.NET</p>
+                                <p>C#</p>
+                                <p>ASP.NET</p>
+                                <p>.NET Core</p>
+                            </Col>
+                            <Col xl={6} lg={6} sm={2} onMouseEnter={() => handleTextHover("Pycharm")}
+                                 onMouseLeave={handleTextLeave}>
+                                <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                    PyCharm Professional
+                                </a>
+                                </Heading>
+                                <p>Python</p>
+                                <p>JavaScript</p>
+                                <p>SQL/NoSQL</p>
+                                <p>Data Science</p>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col xl={6} lg={6} sm={2} onMouseEnter={() => handleTextHover("CLion")}
+                                 onMouseLeave={handleTextLeave}>
+                                <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                    CLion
+                                </a>
+                                </Heading>
+                                <p>C/C++</p>
+                                <p>Embedded</p>
+                                <p>Rust</p>
+                                <p>Python</p>
+                            </Col>
+                            <Col xl={6} lg={6} sm={2} onMouseEnter={() => handleTextHover("PhpStorm")}
+                                 onMouseLeave={handleTextLeave}>
+                                <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                    PhpStorm
+                                </a>
+                                </Heading>
+                                <p>PHP</p>
+                                <p>JavaScript</p>
+                                <p>SQL/NoSQL</p>
+                                <p>Databases</p>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col xl={6} lg={6} sm={2} onMouseEnter={() => handleTextHover("DataGrip")}
+                                 onMouseLeave={handleTextLeave}>
+                                <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                    DataGrip
+                                </a>
+                                </Heading>
+                                <p>SQL/NoSQL</p>
+                                <p>Databases</p>
+                            </Col>
+                            <Col xl={6} lg={6} sm={2} onMouseEnter={() => handleTextHover("DataSpell")}
+                                 onMouseLeave={handleTextLeave}>
+                                <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                    DataSpell
+                                </a>
+                                </Heading>
+                                <p>Data Science</p>
+                                <p>Python</p>
+                                <p>Jupyter</p>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col xl={6} lg={6} sm={2} onMouseEnter={() => handleTextHover("RubyMine")}
+                                 onMouseLeave={handleTextLeave}>
+                                <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                    RubyMine
+                                </a>
+                                </Heading>
+                                <p>Ruby, Rails</p>
+                                <p>JavaScript</p>
+                                <p>SQL/NoSQL</p>
+                                <p>Databases</p>
+                            </Col>
+                            <Col xl={6} lg={6} sm={2} onMouseEnter={() => handleTextHover("GoLand")}
+                                 onMouseLeave={handleTextLeave}>
+                                <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                    GoLand
+                                </a>
+                                </Heading>
+                                <p>Go</p>
+                                <p>JavaScript</p>
+                                <p>SQL/NoSQL</p>
+                                <p>Databases</p>
+                            </Col>
                         </Row>
                     </Col>
                 </Row>
             </Container>
 
             <Container className={"extended-ide-section"}>
-                <Row style={{marginTop: '100px'}}>
+                <Row style={{marginTop: '100px'}} xs={2}>
                     <Col xl={6} lg={6} className="order-2 order-sm-2">
                         <Heading level={2}>3 Extensions & 2 Profilers</Heading>
                         <Col xl={6} lg={4} className={"ide-extended-images"}>
@@ -249,40 +257,45 @@ function TenIdeS() {
                                     <Image
                                         src={ReSharper}
                                         style={{
-                                            marginTop: "30px",
                                             opacity: hoveredText && hoveredText !== "ReSharper" ? 0.5 : 1
                                         }}
+                                        alt="ReSharper Icon"
+                                        className="resharper icon"
                                     />
                                 </Col>
                                 <Col xl={3} lg={4}>
                                     <Image
                                         src={ReSharperC}
                                         style={{
-                                            marginTop: "30px",
                                             opacity: hoveredText && hoveredText !== "ReSharper C++" ? 0.5 : 1
                                         }}
+                                        alt="ReSharperC Icon"
+                                        className="resharperc icon"
                                     />
                                 </Col>
                                 <Col xl={3} lg={4}><Image
                                     src={dotCover}
                                     style={{
-                                        marginTop: "30px",
                                         opacity: hoveredText && hoveredText !== "dotCover" ? 0.5 : 1
                                     }}
+                                    alt="dotCover Icon"
+                                    className="dotcover icon"
                                 /></Col>
                                 <Col xl={3} lg={4}><Image
                                     src={dotMemory}
                                     style={{
-                                        marginTop: "30px",
                                         opacity: hoveredText && hoveredText !== "dotMemory" ? 0.5 : 1
                                     }}
+                                    alt="dotMemory Icon"
+                                    className="dotmemory icon"
                                 /></Col>
                                 <Col xl={3} lg={4}><Image
                                     src={dotTrace}
                                     style={{
-                                        marginTop: "30px",
                                         opacity: hoveredText && hoveredText !== "dotTrace" ? 0.5 : 1
                                     }}
+                                    alt="dotTrace Icon"
+                                    className="dottrace icon"
                                 /></Col>
                             </Row>
                         </Col>
@@ -296,10 +309,10 @@ function TenIdeS() {
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         ReSharper</a>
                                     </Heading>
-                                    <span>.NET</span>
-                                    <span>C#</span>
-                                    <span>.NET Core</span>
-                                    <span>ASP.NET</span>
+                                    <p>.NET</p>
+                                    <p>C#</p>
+                                    <p>.NET Core</p>
+                                    <p>ASP.NET</p>
                                 </Col>
                                 <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("ReSharper C++")}
                                      onMouseLeave={handleTextLeave}>
@@ -307,7 +320,7 @@ function TenIdeS() {
                                         ReSharper C++
                                     </a>
                                     </Heading>
-                                    <span>C/C++</span>
+                                    <p>C/C++</p>
                                 </Col>
                             </Row>
                             <Row>
@@ -317,18 +330,18 @@ function TenIdeS() {
                                         dotCover
                                     </a>
                                     </Heading>
-                                    <span>.NET</span>
-                                    <span>.NET Core</span>
-                                    <span>Mono</span>
+                                    <p>.NET</p>
+                                    <p>.NET Core</p>
+                                    <p>Mono</p>
                                 </Col>
                                 <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("dotMemory")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
-                                        dotMemory                                    </a>
+                                        dotMemory </a>
                                     </Heading>
-                                    <span>.NET</span>
-                                    <span>.NET Core</span>
-                                    <span>Mono</span>
+                                    <p>.NET</p>
+                                    <p>.NET Core</p>
+                                    <p>Mono</p>
                                 </Col>
                             </Row>
                             <Row>
@@ -338,9 +351,9 @@ function TenIdeS() {
                                         dotTrace
                                     </a>
                                     </Heading>
-                                    <span>.NET</span>
-                                    <span>.NET Core</span>
-                                    <span>Mono</span>
+                                    <p>.NET</p>
+                                    <p>.NET Core</p>
+                                    <p>Mono</p>
                                 </Col>
 
                             </Row>
@@ -352,8 +365,7 @@ function TenIdeS() {
         </section>
 
 
-
-)
+    )
 }
 
 export default TenIdeS

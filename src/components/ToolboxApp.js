@@ -7,7 +7,7 @@ function ToolboxApp() {
         <section>
             <div className="toolbox-app-container">
                 <Container>
-                    <Row style={{marginTop: '100px'}}>
+                    <Row style={{marginTop: '100px', marginBottom: '100px'}}>
                         <Col md={4}>
                             <div className="left-toolbox-container">
                                 <Image src={ScreenshotImage} alt="All Products Pack Image" ></Image>

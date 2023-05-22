@@ -6,14 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="7b423493-7be6-4fd1-b1b2-58fbb25fa139" name="Changes" comment="Footer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Download.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Download.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FooterBottom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FooterBottom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/FooterTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FooterTop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Redirect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Redirect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sponsors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sponsors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TenIdeS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TenIdeS.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ToolboxApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToolboxApp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.pcss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.entry.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.entry.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +97,7 @@
       <workItem from="1684175962798" duration="4133000" />
       <workItem from="1684392625558" duration="13023000" />
       <workItem from="1684684048248" duration="4666000" />
+      <workItem from="1684754936724" duration="11926000" />
     </task>
     <task id="LOCAL−00001" summary="FAQ section">
       <created>1683883104052</created>
