@@ -1,6 +1,3 @@
-@custom-media --small-viewport (max-width: 30em);
-
-
 :root {
     --highlight-color: #c8ff00;
     --secondary-highlight-color: #6516b5;
@@ -19,7 +16,7 @@ body {
 }
 
 
-@media (--small-viewport) {
+@media (max-width: 30em) {
     body{
         background-color: #6516b5;
     }
@@ -269,7 +266,8 @@ h2 {
 
 .right-download-container a:hover {
     color: var(--orange-color);
-    text-decoration: underline var(--orange-color);
+    -webkit-text-decoration: underline var(--orange-color);
+            text-decoration: underline var(--orange-color);
 }
 
 .right-download-container h2 {
@@ -302,12 +300,14 @@ h2 {
 
 .socials a {
     color: var(--link-color);
-    text-decoration: underline var(--text-color);
+    -webkit-text-decoration: underline var(--text-color);
+            text-decoration: underline var(--text-color);
 }
 
 .socials a:hover {
     color: var(--link-color);
-    text-decoration: underline var(--link-color) 2px;
+    -webkit-text-decoration: underline var(--link-color) 2px;
+            text-decoration: underline var(--link-color) 2px;
     font-weight: 450;
 }
 
@@ -356,7 +356,8 @@ footer p {
 
 .top-footer-container a:hover {
     color: white;
-    text-decoration: white underline 1pt solid;
+    -webkit-text-decoration: white underline 1pt solid;
+            text-decoration: white underline 1pt solid;
 }
 
 /*Bottom Footer*/
