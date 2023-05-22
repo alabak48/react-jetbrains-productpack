@@ -32,7 +32,7 @@ function TenIdeS() {
         <section>
             <Container className={"ten-ide-section"}>
                 <Row style={{marginTop: '100px'}}>
-                    <Col xl={6} lg={6} sm={6}>
+                    <Col xl={6} lg={6} sm={6} className="order-2 order-sm-1">
                         <Heading level={2}>10 IDEs</Heading>
                         <Col xl={6} lg={4} sm={6} className={"ide-images"}>
                             <Row>
@@ -115,7 +115,7 @@ function TenIdeS() {
                         </Col>
                     </Col>
 
-                    <Col xl={6} lg={5}>
+                    <Col xl={6} lg={5} className="order-1 order-sm-2">
                         <Row className="space-around">
                             <Row>
                                 <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("IntellijIdea")}
@@ -241,7 +241,7 @@ function TenIdeS() {
 
             <Container className={"extended-ide-section"}>
                 <Row style={{marginTop: '100px'}}>
-                    <Col xl={6} lg={6}>
+                    <Col xl={6} lg={6} className="order-2 order-sm-2">
                         <Heading level={2}>3 Extensions & 2 Profilers</Heading>
                         <Col xl={6} lg={4} className={"ide-extended-images"}>
                             <Row>
@@ -288,7 +288,7 @@ function TenIdeS() {
                         </Col>
                     </Col>
 
-                    <Col xl={6} lg={6}>
+                    <Col xl={6} lg={6} className="order-1 order-sm-2">
                         <Row className="space-around">
                             <Row>
                                 <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("ReSharper")}
