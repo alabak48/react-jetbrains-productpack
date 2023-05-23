@@ -1,9 +1,10 @@
 import {Col, Container, Image, Row} from "react-bootstrap";
 import MainImage from "../assets/all-product-pack.png";
 import Heading from "./Headings";
-import Button from "./Button";
+import Buttons from "./Button";
 
 function MainSection(props) {
+
     return (
         <Container>
             <main>
@@ -18,7 +19,7 @@ function MainSection(props) {
                             <div className="right-heading-container">
                                 <Heading level={1}>All Products Pack</Heading>
                                 <Heading level={2}>The complete full-stack<br/>developer toolkit</Heading>
-                                <Button btnText="I Want It All"/>
+                                <Buttons btnText="I Want It All" url="https://www.jetbrains.com/store/#commercial" />
                                 <p style={{marginTop: '20px', color: '#696969'}}>An upgrade and switch option is
                                     available</p>
                             </div>

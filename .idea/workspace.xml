@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b423493-7be6-4fd1-b1b2-58fbb25fa139" name="Changes" comment="Footer">
-      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TenIdeS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TenIdeS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.entry.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.entry.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.pcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.pcss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +92,8 @@
       <workItem from="1684175962798" duration="4133000" />
       <workItem from="1684392625558" duration="13023000" />
       <workItem from="1684684048248" duration="4666000" />
-      <workItem from="1684754936724" duration="12535000" />
+      <workItem from="1684754936724" duration="12908000" />
+      <workItem from="1684829773006" duration="1757000" />
     </task>
     <task id="LOCAL−00001" summary="FAQ section">
       <created>1683883104052</created>
@@ -109,7 +113,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1683978761953</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="Footer">
+      <created>1684767944789</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1684767944789</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

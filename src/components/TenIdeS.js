@@ -28,8 +28,9 @@ function TenIdeS() {
     const handleTextLeave = () => {
         setHoveredText(null);
     };
+
     return (
-        <section>
+        <section className="table-ide-section">
             <Container className={"ten-ide-section"}>
                 <Row style={{marginTop: '100px'}} xs={2}>
                     <Col xl={6} lg={6} sm={3} className="order-2 order-sm-1">
@@ -129,7 +130,7 @@ function TenIdeS() {
                         <Row xs={1}>
                             <Col xl={6} lg={6} sm={3} onMouseEnter={() => handleTextHover("IntellijIdea")}
                                  onMouseLeave={handleTextLeave}>
-                                <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                <Heading level={3}><a href={"https://www.jetbrains.com/idea"}>
                                     IntelliJ IDEA Ultimate
                                 </a>
                                 </Heading>
@@ -140,7 +141,7 @@ function TenIdeS() {
                             </Col>
                             <Col xl={6} lg={6} sm={12} onMouseEnter={() => handleTextHover("WebStorm")}
                                  onMouseLeave={handleTextLeave}>
-                                <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                <Heading level={3}><a href={"https://www.jetbrains.com/webstorm"}>
                                     WebStorm
                                 </a>
                                 </Heading>
@@ -153,7 +154,7 @@ function TenIdeS() {
                         <Row>
                             <Col xl={6} lg={6} sm={12} onMouseEnter={() => handleTextHover("Rider")}
                                  onMouseLeave={handleTextLeave}>
-                                <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                <Heading level={3}><a href={"https://www.jetbrains.com/rider"}>
                                     Rider
                                 </a>
                                 </Heading>
@@ -164,7 +165,7 @@ function TenIdeS() {
                             </Col>
                             <Col xl={6} lg={6} sm={2} onMouseEnter={() => handleTextHover("Pycharm")}
                                  onMouseLeave={handleTextLeave}>
-                                <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                <Heading level={3}><a href={"https://www.jetbrains.com/pycharm"}>
                                     PyCharm Professional
                                 </a>
                                 </Heading>
@@ -177,7 +178,7 @@ function TenIdeS() {
                         <Row>
                             <Col xl={6} lg={6} sm={2} onMouseEnter={() => handleTextHover("CLion")}
                                  onMouseLeave={handleTextLeave}>
-                                <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                <Heading level={3}><a href={"https://www.jetbrains.com/clion"}>
                                     CLion
                                 </a>
                                 </Heading>
@@ -188,7 +189,7 @@ function TenIdeS() {
                             </Col>
                             <Col xl={6} lg={6} sm={2} onMouseEnter={() => handleTextHover("PhpStorm")}
                                  onMouseLeave={handleTextLeave}>
-                                <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                <Heading level={3}><a href={"https://www.jetbrains.com/phpstorm"}>
                                     PhpStorm
                                 </a>
                                 </Heading>
@@ -201,7 +202,7 @@ function TenIdeS() {
                         <Row>
                             <Col xl={6} lg={6} sm={2} onMouseEnter={() => handleTextHover("DataGrip")}
                                  onMouseLeave={handleTextLeave}>
-                                <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                <Heading level={3}><a href={"https://www.jetbrains.com/datagrip"}>
                                     DataGrip
                                 </a>
                                 </Heading>
@@ -210,7 +211,7 @@ function TenIdeS() {
                             </Col>
                             <Col xl={6} lg={6} sm={2} onMouseEnter={() => handleTextHover("DataSpell")}
                                  onMouseLeave={handleTextLeave}>
-                                <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                <Heading level={3}><a href={"https://www.jetbrains.com/dataspell"}>
                                     DataSpell
                                 </a>
                                 </Heading>
@@ -222,7 +223,7 @@ function TenIdeS() {
                         <Row>
                             <Col xl={6} lg={6} sm={2} onMouseEnter={() => handleTextHover("RubyMine")}
                                  onMouseLeave={handleTextLeave}>
-                                <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                <Heading level={3}><a href={"https://www.jetbrains.com/ruby"}>
                                     RubyMine
                                 </a>
                                 </Heading>
@@ -233,7 +234,7 @@ function TenIdeS() {
                             </Col>
                             <Col xl={6} lg={6} sm={2} onMouseEnter={() => handleTextHover("GoLand")}
                                  onMouseLeave={handleTextLeave}>
-                                <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                <Heading level={3}><a href={"https://www.jetbrains.com/go"}>
                                     GoLand
                                 </a>
                                 </Heading>
@@ -306,7 +307,7 @@ function TenIdeS() {
                             <Row>
                                 <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("ReSharper")}
                                      onMouseLeave={handleTextLeave}>
-                                    <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                    <Heading level={3}><a href={"https://www.jetbrains.com/resharper"}>
                                         ReSharper</a>
                                     </Heading>
                                     <p>.NET</p>
@@ -316,7 +317,7 @@ function TenIdeS() {
                                 </Col>
                                 <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("ReSharper C++")}
                                      onMouseLeave={handleTextLeave}>
-                                    <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                    <Heading level={3}><a href={"https://www.jetbrains.com/resharper-cpp"}>
                                         ReSharper C++
                                     </a>
                                     </Heading>
@@ -326,7 +327,7 @@ function TenIdeS() {
                             <Row>
                                 <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("dotCover")}
                                      onMouseLeave={handleTextLeave}>
-                                    <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                    <Heading level={3}><a href={"https://www.jetbrains.com/dotmemory"}>
                                         dotCover
                                     </a>
                                     </Heading>
@@ -347,7 +348,7 @@ function TenIdeS() {
                             <Row>
                                 <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("dotTrace")}
                                      onMouseLeave={handleTextLeave}>
-                                    <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
+                                    <Heading level={3}><a href={"https://www.jetbrains.com/profiler"}>
                                         dotTrace
                                     </a>
                                     </Heading>

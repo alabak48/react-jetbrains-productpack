@@ -330,9 +330,12 @@ h2 {
 
 .form-control {
     margin-top: 24px;
-    border: var(--gray-color) solid 1pt;
     border-radius: 1px;
     padding: 13px;
+    width: 80%;
+    @media (--sm-viewport) {
+        width: 100%;
+    }
 }
 
 .form-control:hover {
@@ -469,12 +472,20 @@ footer p {
 
 /*10IDEs*/
 
+
 .ten-ide-section .icon{
     margin: 48px -10px 0;
     @media (--sm-viewport) {
         text-align: center;
         margin: 0 50px 68px;
     }
+}
+.extended-ide-section{
+    margin-bottom: 98px;
+}
+
+.table-ide-section{
+    border-bottom: 1px solid rgba(39,40,44,.2);
 }
 
 .extended-ide-section .icon{
