@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b423493-7be6-4fd1-b1b2-58fbb25fa139" name="Changes" comment="Footer">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TenIdeS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TenIdeS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.entry.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.entry.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.pcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.pcss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +96,7 @@
       <workItem from="1684684048248" duration="4666000" />
       <workItem from="1684754936724" duration="12908000" />
       <workItem from="1684829773006" duration="1757000" />
+      <workItem from="1684831645970" duration="425000" />
     </task>
     <task id="LOCAL−00001" summary="FAQ section">
       <created>1683883104052</created>
