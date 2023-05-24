@@ -80,10 +80,21 @@ a {
 }
 
 /*Main Container*/
+.left-heading-container h1 {
+    @media (--sm-viewport) {
+        text-align: center;
+    }
+}
+
 .left-heading-container img {
+    @media (--md-viewport) {
+        width: 320px;
+        height: 250px;
+    }
     @media (--sm-viewport) {
         width: 290px;
         height: 220px;
+        text-align: center;
     }
 }
 
@@ -107,9 +118,14 @@ a {
 
 
 /*Deals Container*/
-
-@media (max-width: 320px) {
-    .left-deals-container img {
+.left-deals-container img {
+    @media (--md-viewport) {
+        @media (--md-viewport) {
+            width: 320px;
+            height: 220px;
+        }
+    }
+    @media (--sm-viewport) {
         display: none;
     }
 }
@@ -175,14 +191,18 @@ h2 {
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    }
+}
 
 
 .left-toolbox-container {
     margin-left: 50px;
 }
 
-.left-toolbox-container img{
+.left-toolbox-container img {
+    @media (--md-viewport) {
+        width: 230px;
+        height: 321px;
+    }
     @media (--sm-viewport) {
         display: none;
     }
@@ -209,13 +229,17 @@ h2 {
     font-size: 29px;
     font-weight: 320;
     line-height: 39px;
+    @media (--sm-viewport) {
+        text-align: center;
+    }
 }
 
 .right-sponsors-container {
     display: flex;
     margin-left: 96px;
-    @media (max-width: 320px) {
-        margin-left: 23px;
+    @media (--sm-viewport) {
+        margin-left: 24px;
+        margin-top: 24px;
     }
 }
 
@@ -227,16 +251,16 @@ h2 {
 
 .sponsor-image {
     margin-bottom: 30px;
-    @media (max-width: 320px) {
+    @media (--sm-viewport) {
         margin-right: 10px;
     }
 }
 
 .right-sponsors-container > div:not(:last-child) {
     margin-right: 130px;
-    @media (max-width: 320px) {
+    @media (--sm-viewport) {
         margin-right: 0;
-        }
+    }
 
 }
 
@@ -245,7 +269,7 @@ h2 {
     height: 70px;
 }
 
-@media (max-width: 320px) {
+@media (--sm-viewport) {
     .right-sponsors-container img {
         width: 5em;
         height: 5em;
@@ -256,6 +280,12 @@ h2 {
 /*Faq*/
 .left-faq-container, .right-faq-container {
     width: 80%;
+    @media (--md-viewport) {
+        width: 100%;
+    }
+    @media (--sm-viewport) {
+        width: 100%;
+        }
 }
 
 .faq-container {
@@ -300,7 +330,7 @@ h2 {
     font-size: 16px;
 }
 
-@media (max-width: 320px) {
+@media (--sm-viewport) {
     .left-download-container img {
         display: none;
     }
@@ -318,7 +348,7 @@ h2 {
     font-weight: 600;
 }
 
-/*Socials*/
+/*Newsletter*/
 .socials {
     background-color: #f4f4f4;
 }
@@ -361,7 +391,7 @@ h2 {
 
 .right-socials-container h5 {
     @media (--sm-viewport) {
-    margin-top: 20px;
+        margin-top: 20px;
     }
 }
 
@@ -370,7 +400,6 @@ footer {
     padding-top: 48px;
     background-color: #27282c;
     color: var(--gray-color);
-
 }
 
 footer a {
@@ -464,37 +493,39 @@ footer p {
     color: white;
 }
 
-.social-media-icons{
+.social-media-icons {
     @media (--sm-viewport) {
-    text-align: center;
+        text-align: center;
     }
 }
 
 /*10IDEs*/
 
 
-.ten-ide-section .icon{
+.ten-ide-section .icon {
     margin: 48px -10px 0;
     @media (--sm-viewport) {
         text-align: center;
         margin: 0 50px 68px;
     }
 }
-.extended-ide-section{
+
+.extended-ide-section {
     margin-bottom: 98px;
 }
 
-.table-ide-section{
-    border-bottom: 1px solid rgba(39,40,44,.2);
+.table-ide-section {
+    border-bottom: 1px solid rgba(39, 40, 44, .2);
 }
 
-.extended-ide-section .icon{
+.extended-ide-section .icon {
     margin: 48px -10px 0;
     @media (--sm-viewport) {
         text-align: center;
         margin: 0 50px 50px;
     }
 }
+
 .ten-ide-section p {
     background-color: rgba(39, 40, 44, 0.05);
     margin: 0 1px 14px;
@@ -523,7 +554,7 @@ footer p {
     }
 }
 
-.extended-ide-section p{
+.extended-ide-section p {
     background-color: rgba(39, 40, 44, 0.05);
     margin: 0 1px 14px;
     border-radius: 5px;
@@ -557,7 +588,7 @@ footer p {
     }
 }
 
-.ide-images img, .ide-extended-images img{
+.ide-images img, .ide-extended-images img {
     @media (--sm-viewport) {
         width: 65px;
         height: 65px;
@@ -567,7 +598,7 @@ footer p {
 }
 
 
-.right-ide-container span{
+.right-ide-container span {
     @media (--sm-viewport) {
         width: 65px;
         height: 65px;

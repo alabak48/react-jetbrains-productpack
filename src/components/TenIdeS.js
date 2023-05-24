@@ -33,11 +33,11 @@ function TenIdeS() {
         <section className="table-ide-section">
             <Container className={"ten-ide-section"}>
                 <Row style={{marginTop: '100px'}} xs={2}>
-                    <Col xl={6} lg={6} sm={3} className="order-2 order-sm-1">
+                    <Col xl={6} lg={6} md={6} className="order-2 order-sm-1">
                         <Heading level={2}>10 IDEs</Heading>
-                        <Col xl={6} lg={4} sm={1} className="ide-images">
+                        <Col xl={6} lg={4} md={4} className="ide-images">
                             <Row xs={1}>
-                                <Col xl={3} lg={4} sm={1}>
+                                <Col xl={3} lg={4} md={4}>
                                     <Image
                                         src={IntellijIdea}
                                         style={{
@@ -47,7 +47,7 @@ function TenIdeS() {
                                         className="intellijidea icon"
                                     />
                                 </Col>
-                                <Col xl={3} lg={4} sm={1}>
+                                <Col xl={3} lg={4} md={4}>
                                     <Image
                                         src={WebStorm}
                                         style={{
@@ -57,7 +57,7 @@ function TenIdeS() {
                                         className="webstorm icon"
                                     />
                                 </Col>
-                                <Col xl={3} lg={4} sm={1}><Image
+                                <Col xl={3} lg={4} md={4}><Image
                                     src={Rider}
                                     style={{
                                         opacity: hoveredText && hoveredText !== "Rider" ? 0.5 : 1
@@ -65,7 +65,7 @@ function TenIdeS() {
                                     alt="Rider Icon"
                                     className="rider icon"
                                 /></Col>
-                                <Col xl={3} lg={4} sm={1}><Image
+                                <Col xl={3} lg={4} md={4}><Image
                                     src={Pycharm}
                                     style={{
                                         opacity: hoveredText && hoveredText !== "Pycharm" ? 0.5 : 1
@@ -73,7 +73,7 @@ function TenIdeS() {
                                     alt="Pycharm Icon"
                                     className="pycharm icon"
                                 /></Col>
-                                <Col xl={3} lg={4} sm={1}><Image
+                                <Col xl={3} lg={4} md={4}><Image
                                     src={CLion}
                                     style={{
                                         opacity: hoveredText && hoveredText !== "CLion" ? 0.5 : 1
@@ -81,7 +81,7 @@ function TenIdeS() {
                                     alt="CLion Icon"
                                     className="clion icon"
                                 /></Col>
-                                <Col xl={3} lg={4} sm={1}><Image
+                                <Col xl={3} lg={4} md={4}><Image
                                     src={PhpStorm}
                                     style={{
                                         opacity: hoveredText && hoveredText !== "PhpStorm" ? 0.5 : 1
@@ -89,7 +89,7 @@ function TenIdeS() {
                                     alt="PhpStorm Icon"
                                     className="phpstorm icon"
                                 /></Col>
-                                <Col xl={3} lg={4} sm={1}><Image
+                                <Col xl={3} lg={4} md={4}><Image
                                     src={DataGrip}
                                     style={{
                                         opacity: hoveredText && hoveredText !== "DataGrip" ? 0.5 : 1
@@ -97,7 +97,7 @@ function TenIdeS() {
                                     alt="DataGrip Icon"
                                     className="datagrip icon"
                                 /></Col>
-                                <Col xl={3} lg={4} sm={1}><Image
+                                <Col xl={3} lg={4} md={4}><Image
                                     src={DataSpell}
                                     style={{
                                         opacity: hoveredText && hoveredText !== "DataSpell" ? 0.5 : 1
@@ -105,7 +105,7 @@ function TenIdeS() {
                                     alt="DataSpell Icon"
                                     className="dataspell icon"
                                 /></Col>
-                                <Col xl={3} lg={4} sm={1}><Image
+                                <Col xl={3} lg={4} md={4}><Image
                                     src={RubyMine}
                                     style={{
                                         opacity: hoveredText && hoveredText !== "RubyMine" ? 0.5 : 1
@@ -113,7 +113,7 @@ function TenIdeS() {
                                     alt="RubyMine Icon"
                                     className="rubymine icon"
                                 /></Col>
-                                <Col xl={3} lg={4} sm={1}>
+                                <Col xl={3} lg={4} md={4}>
                                     <Image
                                         src={GoLand}
                                         style={{
@@ -126,9 +126,9 @@ function TenIdeS() {
                         </Col>
                     </Col>
 
-                    <Col xl={6} lg={5} sm={6} className="right-ide-container order-1 order-sm-2">
+                    <Col xl={6} lg={5} md={6} className="right-ide-container order-1 order-sm-2">
                         <Row xs={1}>
-                            <Col xl={6} lg={6} sm={3} onMouseEnter={() => handleTextHover("IntellijIdea")}
+                            <Col xl={6} lg={6} md={6} onMouseEnter={() => handleTextHover("IntellijIdea")}
                                  onMouseLeave={handleTextLeave}>
                                 <Heading level={3}><a href={"https://www.jetbrains.com/idea"}>
                                     IntelliJ IDEA Ultimate
@@ -139,7 +139,7 @@ function TenIdeS() {
                                 <p>Groovy</p>
                                 <p>Scala</p>
                             </Col>
-                            <Col xl={6} lg={6} sm={12} onMouseEnter={() => handleTextHover("WebStorm")}
+                            <Col xl={6} lg={6} md={6} onMouseEnter={() => handleTextHover("WebStorm")}
                                  onMouseLeave={handleTextLeave}>
                                 <Heading level={3}><a href={"https://www.jetbrains.com/webstorm"}>
                                     WebStorm
@@ -152,7 +152,7 @@ function TenIdeS() {
                             </Col>
                         </Row>
                         <Row>
-                            <Col xl={6} lg={6} sm={12} onMouseEnter={() => handleTextHover("Rider")}
+                            <Col xl={6} lg={6} md={6} onMouseEnter={() => handleTextHover("Rider")}
                                  onMouseLeave={handleTextLeave}>
                                 <Heading level={3}><a href={"https://www.jetbrains.com/rider"}>
                                     Rider
@@ -163,7 +163,7 @@ function TenIdeS() {
                                 <p>ASP.NET</p>
                                 <p>.NET Core</p>
                             </Col>
-                            <Col xl={6} lg={6} sm={2} onMouseEnter={() => handleTextHover("Pycharm")}
+                            <Col xl={6} lg={6} md={6} onMouseEnter={() => handleTextHover("Pycharm")}
                                  onMouseLeave={handleTextLeave}>
                                 <Heading level={3}><a href={"https://www.jetbrains.com/pycharm"}>
                                     PyCharm Professional
@@ -176,7 +176,7 @@ function TenIdeS() {
                             </Col>
                         </Row>
                         <Row>
-                            <Col xl={6} lg={6} sm={2} onMouseEnter={() => handleTextHover("CLion")}
+                            <Col xl={6} lg={6} md={6} onMouseEnter={() => handleTextHover("CLion")}
                                  onMouseLeave={handleTextLeave}>
                                 <Heading level={3}><a href={"https://www.jetbrains.com/clion"}>
                                     CLion
@@ -187,7 +187,7 @@ function TenIdeS() {
                                 <p>Rust</p>
                                 <p>Python</p>
                             </Col>
-                            <Col xl={6} lg={6} sm={2} onMouseEnter={() => handleTextHover("PhpStorm")}
+                            <Col xl={6} lg={6} md={6} onMouseEnter={() => handleTextHover("PhpStorm")}
                                  onMouseLeave={handleTextLeave}>
                                 <Heading level={3}><a href={"https://www.jetbrains.com/phpstorm"}>
                                     PhpStorm
@@ -200,7 +200,7 @@ function TenIdeS() {
                             </Col>
                         </Row>
                         <Row>
-                            <Col xl={6} lg={6} sm={2} onMouseEnter={() => handleTextHover("DataGrip")}
+                            <Col xl={6} lg={6} md={6} onMouseEnter={() => handleTextHover("DataGrip")}
                                  onMouseLeave={handleTextLeave}>
                                 <Heading level={3}><a href={"https://www.jetbrains.com/datagrip"}>
                                     DataGrip
@@ -209,7 +209,7 @@ function TenIdeS() {
                                 <p>SQL/NoSQL</p>
                                 <p>Databases</p>
                             </Col>
-                            <Col xl={6} lg={6} sm={2} onMouseEnter={() => handleTextHover("DataSpell")}
+                            <Col xl={6} lg={6} md={6} onMouseEnter={() => handleTextHover("DataSpell")}
                                  onMouseLeave={handleTextLeave}>
                                 <Heading level={3}><a href={"https://www.jetbrains.com/dataspell"}>
                                     DataSpell
@@ -221,7 +221,7 @@ function TenIdeS() {
                             </Col>
                         </Row>
                         <Row>
-                            <Col xl={6} lg={6} sm={2} onMouseEnter={() => handleTextHover("RubyMine")}
+                            <Col xl={6} lg={6} md={6} onMouseEnter={() => handleTextHover("RubyMine")}
                                  onMouseLeave={handleTextLeave}>
                                 <Heading level={3}><a href={"https://www.jetbrains.com/ruby"}>
                                     RubyMine
@@ -232,7 +232,7 @@ function TenIdeS() {
                                 <p>SQL/NoSQL</p>
                                 <p>Databases</p>
                             </Col>
-                            <Col xl={6} lg={6} sm={2} onMouseEnter={() => handleTextHover("GoLand")}
+                            <Col xl={6} lg={6} md={6} onMouseEnter={() => handleTextHover("GoLand")}
                                  onMouseLeave={handleTextLeave}>
                                 <Heading level={3}><a href={"https://www.jetbrains.com/go"}>
                                     GoLand
@@ -250,11 +250,11 @@ function TenIdeS() {
 
             <Container className={"extended-ide-section"}>
                 <Row style={{marginTop: '100px'}} xs={2}>
-                    <Col xl={6} lg={6} className="order-2 order-sm-2">
+                    <Col xl={6} lg={6} md={6} className="order-2 order-sm-2">
                         <Heading level={2}>3 Extensions & 2 Profilers</Heading>
-                        <Col xl={6} lg={4} className={"ide-extended-images"}>
+                        <Col xl={6} lg={4} md={4} className={"ide-extended-images"}>
                             <Row>
-                                <Col xl={3} lg={4}>
+                                <Col xl={3} lg={4} md={4}>
                                     <Image
                                         src={ReSharper}
                                         style={{
@@ -264,7 +264,7 @@ function TenIdeS() {
                                         className="resharper icon"
                                     />
                                 </Col>
-                                <Col xl={3} lg={4}>
+                                <Col xl={3} lg={4} md={4}>
                                     <Image
                                         src={ReSharperC}
                                         style={{
@@ -274,7 +274,7 @@ function TenIdeS() {
                                         className="resharperc icon"
                                     />
                                 </Col>
-                                <Col xl={3} lg={4}><Image
+                                <Col xl={3} lg={4} md={4}><Image
                                     src={dotCover}
                                     style={{
                                         opacity: hoveredText && hoveredText !== "dotCover" ? 0.5 : 1
@@ -282,7 +282,7 @@ function TenIdeS() {
                                     alt="dotCover Icon"
                                     className="dotcover icon"
                                 /></Col>
-                                <Col xl={3} lg={4}><Image
+                                <Col xl={3} lg={4} md={4}><Image
                                     src={dotMemory}
                                     style={{
                                         opacity: hoveredText && hoveredText !== "dotMemory" ? 0.5 : 1
@@ -290,7 +290,7 @@ function TenIdeS() {
                                     alt="dotMemory Icon"
                                     className="dotmemory icon"
                                 /></Col>
-                                <Col xl={3} lg={4}><Image
+                                <Col xl={3} lg={4} md={4}><Image
                                     src={dotTrace}
                                     style={{
                                         opacity: hoveredText && hoveredText !== "dotTrace" ? 0.5 : 1
@@ -302,10 +302,10 @@ function TenIdeS() {
                         </Col>
                     </Col>
 
-                    <Col xl={6} lg={6} className="order-1 order-sm-2">
+                    <Col xl={6} lg={6} md={6} className="order-1 order-sm-2">
                         <Row className="space-around">
                             <Row>
-                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("ReSharper")}
+                                <Col xl={6} lg={6} md={6} onMouseEnter={() => handleTextHover("ReSharper")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/resharper"}>
                                         ReSharper</a>
@@ -315,7 +315,7 @@ function TenIdeS() {
                                     <p>.NET Core</p>
                                     <p>ASP.NET</p>
                                 </Col>
-                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("ReSharper C++")}
+                                <Col xl={6} lg={6} md={6} onMouseEnter={() => handleTextHover("ReSharper C++")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/resharper-cpp"}>
                                         ReSharper C++
@@ -325,7 +325,7 @@ function TenIdeS() {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("dotCover")}
+                                <Col xl={6} lg={6} md={6} onMouseEnter={() => handleTextHover("dotCover")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/dotmemory"}>
                                         dotCover
@@ -335,7 +335,7 @@ function TenIdeS() {
                                     <p>.NET Core</p>
                                     <p>Mono</p>
                                 </Col>
-                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("dotMemory")}
+                                <Col xl={6} lg={6} md={6} onMouseEnter={() => handleTextHover("dotMemory")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/all/"}>
                                         dotMemory </a>
@@ -346,7 +346,7 @@ function TenIdeS() {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col xl={6} lg={6} onMouseEnter={() => handleTextHover("dotTrace")}
+                                <Col xl={6} lg={6} md={6} onMouseEnter={() => handleTextHover("dotTrace")}
                                      onMouseLeave={handleTextLeave}>
                                     <Heading level={3}><a href={"https://www.jetbrains.com/profiler"}>
                                         dotTrace

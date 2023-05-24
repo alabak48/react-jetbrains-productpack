@@ -8,7 +8,7 @@ function Faq() {
                 <Container>
                     <Row>
                         <Heading level={2}>FAQ</Heading>
-                        <Col xl={6} lg={6}>
+                        <Col xl={6} lg={6} md={6} sm={12}>
                             <div className="left-faq-container">
                                 <p>Can I upgrade my existing IntelliJ IDEA, PyCharm, Webstorm or ResSharper Ultimate
                                     or any other JetBrains IDE license to the All Products Pack?</p>
@@ -16,7 +16,7 @@ function Faq() {
                                     purchase new All Products Pack subscriptions with an additional discount.</p>
                             </div>
                         </Col>
-                        <Col xl={6} lg={6}>
+                        <Col xl={6} lg={6} md={6}>
                             <div className="right-faq-container">
                                 <p>How to upgrade to the All Products Pack?</p>
                                 <p>You can upgrade your current subscription to All Products Pack license from your

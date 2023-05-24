@@ -3,19 +3,19 @@ import MainImage from "../assets/all-product-pack.png";
 import Heading from "./Headings";
 import Buttons from "./Button";
 
-function MainSection(props) {
+function MainSection() {
 
     return (
         <Container>
             <main>
                 <div className="heading-container">
                     <Row style={{marginTop: '100px'}}>
-                        <Col md={6} className="order-2 order-sm-1">
+                        <Col xl={6} lg={6} md={6} sm={6} className="order-2 order-sm-1">
                             <div className="left-heading-container" >
                                 <Image src={MainImage} alt="All Products Pack Image"></Image>
                             </div>
                         </Col>
-                        <Col md={6} className="order-1 order-sm-2">
+                        <Col xl={6} lg={6} md={6} sm={6} className="order-1 order-sm-2">
                             <div className="right-heading-container">
                                 <Heading level={1}>All Products Pack</Heading>
                                 <Heading level={2}>The complete full-stack<br/>developer toolkit</Heading>

@@ -18,7 +18,7 @@ function Sponsors() {
                                 <p>Trusted by 320,083<br/>businesses worldwide</p>
                             </div>
                         </Col>
-                        <Col md={9} lg={6} sm={2}>
+                        <Col md={5} lg={6} sm={2}>
                             <div className="right-sponsors-container">
                                 <Col md={3} lg={2} sm={2}>
                                     <div className="google-salesforce">
@@ -26,7 +26,7 @@ function Sponsors() {
                                         <Image src={Salesforce} alt="Salesforce logo" className="sponsor-image salesforce"></Image>
                                     </div>
                                 </Col>
-                                <Col md={3} lg={3} sm={2}>
+                                <Col md={2} lg={3} sm={2}>
                                     <div className="hp-expedia">
                                         <Image src={HP} alt="HP Logo" className="sponsor-image hp"></Image>
                                         <Image src={Expedia} alt="Expedia Logo" className="sponsor-image expedia"></Image>

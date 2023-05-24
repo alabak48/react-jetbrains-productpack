@@ -6,7 +6,7 @@ function FooterTop(){
         <footer>
             <Container className={"top-footer-container"}>
                 <Row xs={2}>
-                    <Col xl={2} lg={2} sm={6} className={"products-container"} style={{marginTop: 24}}>
+                    <Col xl={2} lg={2} md={2} sm={6} vclassName={"products-container"} style={{marginTop: 24}}>
                         <RedirectLink
                         titleHeading={"Products"}
                         redirectUrl={"https://www.jetbrains.com/products/#type=ide"} textUrl={"IDEs"}/>
@@ -17,7 +17,7 @@ function FooterTop(){
                         <RedirectLink redirectUrl={"https://www.jetbrains.com/products/#type=language"} textUrl={"Languages"}/>
                         <RedirectLink redirectUrl={"https://www.jetbrains.com/products/"} textUrl={"All Products"}/>
                     </Col>
-                    <Col xl={2} lg={2} sm={6} className={"solutions-container"} style={{marginTop: 24}}>
+                    <Col xl={2} lg={2} md={2} sm={6} className={"solutions-container"} style={{marginTop: 24}}>
                         <RedirectLink
                             titleHeading={"Solutions"}
                             redirectUrl={"https://www.jetbrains.com/cpp/"} textUrl={"C++ Tools"}/>
@@ -30,7 +30,7 @@ function FooterTop(){
                         <RedirectLink redirectUrl={"https://www.jetbrains.com/quality-assurance-solutions/"} textUrl={"Quality Assurance"}/>
 
                     </Col>
-                    <Col xl={2} lg={2} sm={6} className={"initiatives-container"} style={{marginTop: 24}}>
+                    <Col xl={2} lg={2} md={2} sm={6} className={"initiatives-container"} style={{marginTop: 24}}>
                         <RedirectLink
                             titleHeading={"Initiatives"}
                             redirectUrl={"https://www.jetbrains.com/opensource/kotlin/"} textUrl={"Kotlin"}/>
@@ -38,7 +38,7 @@ function FooterTop(){
                         <RedirectLink redirectUrl={"https://www.jetbrains.com/research/"} textUrl={"JetBrains Research"}/>
                         <RedirectLink redirectUrl={"https://www.jetbrains.com/opensource/"} textUrl={"Open Source Projects"}/>
                     </Col>
-                    <Col xl={2} lg={2} sm={6} className={"community-container"} style={{marginTop: 24}}>
+                    <Col xl={2} lg={2} md={2} sm={6} className={"community-container"} style={{marginTop: 24}}>
                         <RedirectLink
                             titleHeading={"Community"}
                             redirectUrl={"https://www.jetbrains.com/products/#type=ide"} textUrl={"Academic Licensing"}/>
@@ -47,7 +47,7 @@ function FooterTop(){
                         <RedirectLink redirectUrl={"https://www.jetbrains.com/edu-products/"} textUrl={"Events Partnership"}/>
                         <RedirectLink redirectUrl={"https://www.jetbrains.com/products/#type=language"} textUrl={"Developer Recognition"}/>
                     </Col>
-                    <Col xl={2} lg={2} sm={6} className={"resources-container"} style={{marginTop: 24}}>
+                    <Col xl={2} lg={2} md={2} sm={6} className={"resources-container"} style={{marginTop: 24}}>
                         <RedirectLink
                             titleHeading={"Resources"}
                             redirectUrl={"https://www.jetbrains.com/support/sales/"} textUrl={"Sales Support"}/>
@@ -61,7 +61,7 @@ function FooterTop(){
                         <RedirectLink redirectUrl={"https://blog.jetbrains.com/?_gl=1*1a9tewc*_ga*MzcwMDgxMzc4LjE2Nzk1MDQ1MjY.*_ga_9J976DJZ68*MTY4Mzk2NzY1NS4zMS4xLjE2ODM5NjkyNjcuNDAuMC4w&_ga=2.14148660.2020109515.1683745698-370081378.1679504526"} textUrl={"Blog"}/>
                         <RedirectLink redirectUrl={"https://www.jetbrains.com/company/brand/desktop-art/"} textUrl={"Desktop Art"}/>
                     </Col>
-                    <Col xl={2} lg={2} sm={6} className={"company-container"} style={{marginTop: 24}}>
+                    <Col xl={2} lg={2} md={2} sm={6} className={"company-container"} style={{marginTop: 24}}>
                         <RedirectLink
                             titleHeading={"Company"}
                             redirectUrl={"https://www.jetbrains.com/company/"} textUrl={"About"}/>

@@ -6,14 +6,14 @@ import {faTwitter} from '@fortawesome/free-brands-svg-icons';
 import {faUsers} from '@fortawesome/free-solid-svg-icons';
 
 
-function Socials() {
+function Newsletter() {
     return (
         <section className="socials">
             <Container>
                 <Row style={{paddingTop: 98, paddingBottom: 98}}>
                     <Col xl={12}>
                         <Row>
-                            <Col xl={6} lg={6}>
+                            <Col xl={6} lg={6} md={6}>
                                 <div className="left-socials-container">
                                     <Form>
                                         <p>Stay updated</p>
@@ -29,7 +29,7 @@ function Socials() {
                                     </Form>
                                 </div>
                             </Col>
-                            <Col xl={6} lg={6}>
+                            <Col xl={6} lg={6} md={6}>
                                 <div className="right-socials-container">
                                     <RedirectLink
                                         iconSrc={faBookOpenReader}
@@ -57,4 +57,4 @@ function Socials() {
     )
 }
 
-export default Socials
+export default Newsletter
