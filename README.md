@@ -6,11 +6,21 @@ This project was made with [WebStorm](https://www.jetbrains.com/webstorm/promo/?
 ## Description
 The All Products Pack serves as the main landing page for the JetBrains website, showcasing their range of software products and services. React UI for All Products Pack website. The project was built with React Bootstrap with a component approach in WebStorm IDE. Note: This is a test assignment.
 
+## Breakpoints
+|  Breakpoint  |  Class infix  | Dimensions |
+|  ----------- |  ------------ |----------- |
+|  X-Small	   |  None         |   <576px   |
+|  Small       |  ```sm```  	 |   ≥576px   |
+|  Medium      |  ```md```     |   ≥768px   |
+|  Large       |  ```lg```     |   ≥992px   |
+|  Extra large |  ```xl```     |   ≥1200px  |
+|  Extra extra large |  ```xxl```| ≥1200px  |
+
 ## PostCSS Plugins
-* #### postcss-custom-media
-* #### postcss-nested
-* #### autoprefixer
-* #### cssnano
+* #### ```postcss-custom-media```
+* #### ```postcss-nested```
+* #### ```autoprefixer```
+* #### ```cssnano```
 
 ## Home Page
 ![img.png](img.png)
